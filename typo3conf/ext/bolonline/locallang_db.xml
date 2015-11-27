@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+  <meta type="array">
+    <type>database</type>
+    <description>Language labels for database tables/fields belonging to extension 'bolonline'</description>
+  </meta>
+  <data type="array">
+    <languageKey index="default" type="array">
+      <label index="tt_content.list_type_pi1">BOL-Datenbank</label>
+      <label index="tt_content.list_type_pi2">BOL-Datenbank-Readonly</label>
+
+      <label index="tx_bolonline_Kerndaten.label">Kerndaten (A)</label>      
+      <label index="tx_bolonline_Kerndaten.a0">A0, Zusammenfassende Bezeichnung &lt;br&gt;[Sammlungs-Akronym und Inventar-Nummer ...]</label>
+      <label index="tx_bolonline_Kerndaten.a1">A1, Zuordnung</label>
+      <label index="tx_bolonline_Kerndaten.a2">A2, Sammlungs-Akronym</label>
+      <label index="tx_bolonline_Kerndaten.a3">A3, Heutige Inventar-Nummer</label>
+      <label index="tx_bolonline_Kerndaten.a5">A5, Sekundär-Nummer(n)</label>
+      <label index="tx_bolonline_Kerndaten.a6">A6, Stückzahl/Serie</label>
+      <label index="tx_bolonline_Kerndaten.a7a">A7a, Großgruppe (in Fachtermini)</label>
+      <label index="tx_bolonline_Kerndaten.a7b">A7b, Großgruppe (allgemein)</label>
+      <label index="tx_bolonline_Kerndaten.a8">A8, Original-Bezeichnung(en)</label>
+      <label index="tx_bolonline_Kerndaten.a9a">A9a, Neue Bezeichnung (in Fachtermini)</label>
+      <label index="tx_bolonline_Kerndaten.a9b">A9b, Neue Bezeichnung (allgemein)</label>
+      <label index="tx_bolonline_Kerndaten.a9c">A9c, Synonyma</label>
+      <label index="tx_bolonline_Kerndaten.a9d">A9d, unique Identifier (uri)</label>
+      <label index="tx_bolonline_Kerndaten.a12a">A12a, Alter/Datierung von</label>
+      <label index="tx_bolonline_Kerndaten.a12aa">A12aa, Alter/Datierung bis</label>
+      <label index="tx_bolonline_Kerndaten.a12b">A12b, Bemerkungen zum Alter/zur Datierung</label>
+      <label index="tx_bolonline_Kerndaten.a12c">A12c, Datierungsmethode</label>
+      <label index="tx_bolonline_Kerndaten.a12d">A12d, Bemerkungen zur Datierungsmethode</label>
+      <label index="tx_bolonline_Kerndaten.a12e">A12e, Fall-/Fundumstände</label>
+      <label index="tx_bolonline_Kerndaten.a12f">A12f, Bemerkungen zu den Fall-/Fundumständen</label>
+      <label index="tx_bolonline_Kerndaten.a12g">A12g, Datum (Fall/Erstfund) von</label>
+      <label index="tx_bolonline_Kerndaten.a12h">A12h, Datum (Fall/Erstfund) bis</label>
+      <label index="tx_bolonline_Kerndaten.a12i">A12i, Bemerkungen zum Fall-/Funddatum</label>
+      <label index="tx_bolonline_Kerndaten.a13a">A13a, Fundort</label>
+        <label index="tx_bolonline_Kerndaten.a13b">A13b, Fundort-Koordinaten</label>
+      <label index="tx_bolonline_Kerndaten.a13c">A13c, Fundort Orts-Getty-ID</label>
+      <label index="tx_bolonline_Kerndaten.a13d">A13d, Fundort übergeordnete orts-Getty-ID</label>
+      <label index="tx_bolonline_Kerndaten.a14a">A14a, Sammler (leg.)</label>
+      <label index="tx_bolonline_Kerndaten.a14aa">A14aa, CERL-Id/interne Id Sammler (leg.)</label>
+      <label index="tx_bolonline_Kerndaten.a14b">A14b, Datum (leg.) von</label>      
+      <label index="tx_bolonline_Kerndaten.a14ba">A14ba, Datum (leg.) bis</label>
+      <label index="tx_bolonline_Kerndaten.a15a">A15a, Erhalten von</label>
+      <label index="tx_bolonline_Kerndaten.a15aa">A15aa, CERL-Id/interne Id Donator/Geber (don./ded.)</label>
+      <label index="tx_bolonline_Kerndaten.a15b">A15b, Datum (Sammlungseingang) von</label>
+      <label index="tx_bolonline_Kerndaten.a15ba">A15ba, Datum (Sammlungseingang) bis</label>
+      <label index="tx_bolonline_Kerndaten.a16a">A16a, Erwerbsform</label>
+      <label index="tx_bolonline_Kerndaten.a16b">A16b, Im Besitz der Universität seit</label>
+      <label index="tx_bolonline_Kerndaten.a16ba">A16ba, Erwerbsdatum bis</label>
+      <label index="tx_bolonline_Kerndaten.a17">A17, Bemerkungen zu Sammler, Donator und Erwerbsform</label>
+      <label index="tx_bolonline_Kerndaten.a18">A18, Erwähnungs-Original zu</label>
+      <label index="tx_bolonline_Kerndaten.a19">A19, Beschreibungs-Original zu</label>
+      <label index="tx_bolonline_Kerndaten.a20">A20, Abbildungs-Original zu</label>
+      <label index="tx_bolonline_Kerndaten.a21">A21, Botanischer-/Zoologischer-/Paläontologischer-/Mineralogischer Typus</label>
+      <label index="tx_bolonline_Kerndaten.a22">A22, Sekundär-Literatur</label>
+      <label index="tx_bolonline_Kerndaten.a23">A23, Bemerkungen zu Erwähnungs-, Beschreibungs- und Abbildungs-Originalen, Typus und Sekundär-Literatur</label>
+      <label index="tx_bolonline_Kerndaten.a24a">A24a,Standort &lt;br&gt;[Für externen Zugriff]</label>
+      <label index="tx_bolonline_Kerndaten.a24b">A24b, Standort &lt;br&gt;[Für internen Zugriff]</label>        
+      <label index="tx_bolonline_Kerndaten.a25">A25, Hersteller</label>
+      <label index="tx_bolonline_Kerndaten.a25a_a">A25a_a, Hersteller CERL-Id/interne Id</label>
+      <label index="tx_bolonline_Kerndaten.a25a">A25a, Herstellungs-Ort</label>      
+      <label index="tx_bolonline_Kerndaten.a25ab">A25ab, Herstellungs-Ort Koordinaten</label>
+      <label index="tx_bolonline_Kerndaten.a25ac">A25ac, Herstellungs-Ort Getty-Id/interne Id</label>
+      <label index="tx_bolonline_Kerndaten.a25b">A25b, Herstellungsdatum von</label>
+      <label index="tx_bolonline_Kerndaten.a25c">A25c, Herstellungsdatum bis</label>
+      <label index="tx_bolonline_Kerndaten.a26">A26, Objekt-Typ</label>       
+      <label index="tx_bolonline_Kerndaten.a27">A27, Nutzungsbedingungen für die digitalen Abbildungen</label> 
+      <label index="tx_bolonline_Kerndaten.a28">A28, Rechtehinweise für die digitalen Abbildungen</label>    
+      <label index="tx_bolonline_Kerndaten.c1">C1, Anzahl der Original-Etiketten</label>
+      <label index="tx_bolonline_Kerndaten.c2">C2, Anzahl der Sekundär-Etiketten</label>
+      <label index="tx_bolonline_Kerndaten.f1">F1, Bemerkungen (allgemein)</label>
+      <label index="tx_bolonline_Kerndaten.f2a">F2a, Bearbeiter</label>
+      <label index="tx_bolonline_Kerndaten.f2b">F2b, Datum der Erstbearbeitung</label>
+      <label index="tx_bolonline_Kerndaten.f3a">F3a, Letzte Änderung von</label>
+      <label index="tx_bolonline_Kerndaten.f3b">F3b, Letzte Änderung am</label>
+      <label index="tx_bolonline_Kerndaten.f4">F4, Erwähnung im Briefwechsel</label>
+      <label index="tx_bolonline_Kerndaten.f5">F5, Erwähnung in handschriftlichen Katalogen Blumenbachs</label>                                                                                              
+      <label index="tx_bolonline_Kerndaten.f6">F6, Verlinkung zu digitalisierten Schriften</label>
+      <label index="tx_bolonline_Kerndaten.f7">F7, Verlinkung zu digitalisierten Original-Abbildungen</label>
+      <label index="tx_bolonline_Kerndaten.f8">F8, Verlinkung zu digitalisierten Briefen</label>
+      <label index="tx_bolonline_Kerndaten.f9">F9, Schlagworte</label> 
+      
+      
+      
+      <label index="tx_bolonline_PartII.label">Spezifizierung (B, Objekte)</label>
+      <label index="tx_bolonline_PartII.b1">B1, Art des Objektes/der Objekte</label>
+      <label index="tx_bolonline_PartII.b2">B2, Material des Objektes/der Objekte</label>
+      <label index="tx_bolonline_PartII.b3a">B3a, Technik der Objektherstellung</label>
+      <label index="tx_bolonline_PartII.b3b">B3b, Ethnie</label>
+      <label index="tx_bolonline_PartII.b3c">B3c, Stilkundliche Zuordnung/Kultur</label>      
+      <label index="tx_bolonline_PartII.b3d">B3d, Bemerkungen zu B1-B3</label>
+      <label index="tx_bolonline_PartII.b4a">B4a, Geschlecht</label>
+      <label index="tx_bolonline_PartII.b4aa">B4aa, Alter in Jahren</label>
+      <label index="tx_bolonline_PartII.b4b">B4b, Krankheitsstatus/pathologischer Befund</label>
+      <label index="tx_bolonline_PartII.b4c">B4c, Morphologischer Typus</label>      
+      <label index="tx_bolonline_PartII.b4ca">B4ca, Morphologische Besonderheiten</label>
+      <label index="tx_bolonline_PartII.b4d">B4d, Geographische Region</label>
+      <label index="tx_bolonline_PartII.b5">B5, Funktion, Anwendung und Symbolik des Objektes/der Objekte</label>
+      <label index="tx_bolonline_PartII.b6">B6, Bemerkungen zur B4a-B5</label>
+      <label index="tx_bolonline_PartII.b7a">B7a, Größe des Objektes/der Objekte</label>
+      <label index="tx_bolonline_PartII.b7b">B7b, Anthropologische Vermessung</label>
+      <label index="tx_bolonline_PartII.b7c">B7c, Bemerkungen zur anthropologischen Vermessung</label>
+      <label index="tx_bolonline_PartII.b8">B8, Gewicht des Objektes/der Objekte</label>
+      <label index="tx_bolonline_PartII.b9a">B9a, Art der historischen Aufbewahrung des Objektes/der Objekte</label>
+      <label index="tx_bolonline_PartII.b9b">B9b, Bemerkungen zur historischen Aufbewahrung</label>
+      <label index="tx_bolonline_PartII.b10a">B10a, Zustand des Objektes/der Objekte</label>
+      <label index="tx_bolonline_PartII.b10b">B10b, Bemerkungen zum Zustand des Objektes/der Objekte</label>
+      <label index="tx_bolonline_PartII.b11a">B11a, Konservierung/Restaurierung nötig?</label>
+      <label index="tx_bolonline_PartII.b11b">B11b, letzte Konservierung/Restaurierung</label>
+      <label index="tx_bolonline_PartII.b11c">B11c, Datum der letzten Konservierung/Restaurierung</label>
+      <label index="tx_bolonline_PartII.b12">B12, Heutige Inventar-Nummer</label>
+      
+      
+      <label index="tx_bolonline_PartIII.label">Spezifizierung (C, Original-Text auf Etiketten)</label> 
+      <label index="tx_bolonline_PartIII.a10">A10, Text vom Original-Etikett/von den Original-Etiketten</label>
+      <label index="tx_bolonline_PartIII.c3">C3, Art und Position des Original-Etiketts/der Original-Etiketten</label>
+      <label index="tx_bolonline_PartIII.c4">C4, Größe des Original-Etiketts/der Original-Etiketten</label>
+      <label index="tx_bolonline_PartIII.c5">C5, Art der Schrift auf dem Original-Etiketts/den Original-Etiketten</label>
+      <label index="tx_bolonline_PartIII.c6a">C6a, Zustand des Original-Etiketts/der Original-Etiketten</label>
+      <label index="tx_bolonline_PartIII.c6b">C6b, Bemerkungen zum Zustand des Original-Etiketts/der Original-Etiketten</label>
+      <label index="tx_bolonline_PartIII.c7a">C7a, Konservierung/Restaurierung nötig</label>
+      <label index="tx_bolonline_PartIII.c7b">C7b, letzte Konservierung/Restaurierung</label>
+      <label index="tx_bolonline_PartIII.c7c">C7c, Datum der letzten Konservierung/Restaurierung</label>
+      
+      
+      
+      <label index="tx_bolonline_PartIV.label">Spezifizierung (D, Original-Text direkt auf dem Objekt)</label>
+      <label index="tx_bolonline_PartIV.a11">A11, Text von Original-Beschriftung direkt auf dem Objekt/den Objekten</label>
+      <label index="tx_bolonline_PartIV.d1">D1, Position des historischen Textes auf dem Objekt/den Objekten bzw. der historischen Aufbewahrung</label>
+      <label index="tx_bolonline_PartIV.d2">D2, Schrift des historischen Textes auf dem Objekt/den Objekten bzw. der historischen Aufbewahrung</label>
+      <label index="tx_bolonline_PartIV.d3a">D3a, Zustand des Original-Textes auf dem Objekt/den Objekten bzw. der historischen Aufbewahrung</label>
+      <label index="tx_bolonline_PartIV.d3b">D3b, Bemerkungen zum Zustand des Original-Textes auf dem Objekt/den Objekten bzw. der historischen Aufbewahrung</label>
+      
+      
+      
+      <label index="tx_bolonline_PartI.label">Spezifizierung (E, Nummern)</label>
+      <label index="tx_bolonline_PartI.a4">A4, Original-Nummer(n)</label>
+      <label index="tx_bolonline_PartI.e1">E1, Art und Position der Original-Nummer(n)</label>
+      <label index="tx_bolonline_PartI.e2">E2, Größe der Etiketten der Original-Nummer(n)</label>
+      <label index="tx_bolonline_PartI.e3">E3, Art der Schrift der Original-Nummer(n)</label>
+      <label index="tx_bolonline_PartI.e4a">E4a, Zustand der Original-Nummer(n)</label>
+      <label index="tx_bolonline_PartI.e4b">E4b, Bemerkungen zum Zustand der Original-Nummer(n)</label>
+      <label index="tx_bolonline_PartI.e5a">E5a, Konservierung/Restaurierung nötig</label>
+      <label index="tx_bolonline_PartI.e5b">E5b, letzte Konservierung/Restaurierung</label>
+      <label index="tx_bolonline_PartI.e5c">E5c, Datum der letzten Konservierung/Restaurierung</label>
+    </languageKey>
+    <languageKey index="en" type="array">
+      <label index="tt_content.list_type_pi1">BOL-Database</label>
+      <label index="tt_content.list_type_pi2">BOL-Datenbank-Readonly</label>
+      <label index="tx_bolonline_Kerndaten.a0">A0, Zusammenfassende Bezeichnung</label>
+      <label index="tx_bolonline_Kerndaten.a1">A1, Zuordnung</label>
+      <label index="tx_bolonline_Kerndaten.a2">A2, Sammlungs-Akronym</label>
+      <label index="tx_bolonline_Kerndaten.a3">A3, Heutige Inventar-Nummer</label>
+      <label index="tx_bolonline_Kerndaten.a4">A4, Original-Nummer(n)</label>
+    </languageKey>
+  </data>
+</T3locallang> 
+
+
+
+

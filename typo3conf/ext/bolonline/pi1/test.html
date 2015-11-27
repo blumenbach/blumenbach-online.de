@@ -1,0 +1,54 @@
+<!DOCTYPE 
+    html
+    PUBLIC
+    "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en_US" xml:lang="en_US">
+  <!--
+    * Created on 24.02.2011 * * To change the template for this generated file go to * Window - Preferences - PHPeclipse
+    - PHP - Code Templates
+  -->
+  <head>
+    <title>
+    </title>
+  </head>
+  <body>
+    Gewicht:
+    <input type="text" id="b8g" style="margin-left:10px;width:22px">
+    [g]
+    <u onClick=\'autofill("b8","b8g","G","g")\'>
+      ->
+    </u>
+    <br />
+    Höhe:
+    <input type="text" id="b8h" style="margin-left:24px;width:22px">
+    [mm]
+    <u onClick=\'autofill("b8","b8h","H","mm")\'>
+      ->
+    </u>
+    <br />
+    Breite:
+    <input type="text" id="b8B" style="margin-left:22px;width:22px">
+    [mm]
+    <u onClick=\'autofill("b8","b8B","B","mm")\'>
+      ->
+    </u>
+    <br />
+    Länge:
+    <input type="text" id="b8L" style="margin-left:19px;width:22px">
+    [mm]
+    <u onClick=\'autofill("b8","b8L","L","mm")\'>
+      ->
+    </u>
+    <br />
+    <textarea id="b8" readonly="readonly" name="b8[]">
+      '.$rowobj['b8'].'
+    </textarea>
+    <br >
+    <u style="color:red;font-size:9px" onClick="document.getElementById(\'b8\').value=\'\'">
+      löschen
+    </u>
+  </body>
+</html>

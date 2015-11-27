@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+  <meta type="array">
+    <type>database</type>
+    <description>Language labels for database tables/fields belonging to extension 'bolonline'</description>
+  </meta>
+  <data type="array">
+    <languageKey index="default" type="array">
+      <label index="tt_content.list_type_pi1">BOL-Datenbank</label>
+      <label index="tx_bolonline_Kerndaten.a0">A0, Zusammenfassende Bezeichnung<br>[Sammlungs-Akronym und Inventar-Nummer ...]</label>
+      <label index="tx_bolonline_Kerndaten.a1">A1, Zuordnung</label>
+      <label index="tx_bolonline_Kerndaten.a2">A2, Sammlungs-Akronym</label>
+      <label index="tx_bolonline_Kerndaten.a3">A3, Heutige Inventar-Nummer</label>
+      <label index="tx_bolonline_Kerndaten.a5">A5, Sekundär-Nummer(n)</label>
+      <label index="tx_bolonline_Kerndaten.a7a">A7a, Großgruppe (in Fachtermini)</label>
+      <label index="tx_bolonline_Kerndaten.a7b">A7b, Großgruppe (allgemein)</label>
+      <label index="tx_bolonline_Kerndaten.a8">A8, Original-Bezeichnung(en)</label>
+      <label index="tx_bolonline_Kerndaten.a9a">A9a, Neue Bezeichnung (in Fachtermini)</label>
+      <label index="tx_bolonline_Kerndaten.a9b">A9b, Neue Bezeichnung (allgemein)</label>
+      <label index="tx_bolonline_Kerndaten.a9c">A9c, Synonyma</label>
+      <label index="tx_bolonline_Kerndaten.a12a">A12a, Alter/Datierung</label>
+      <label index="tx_bolonline_Kerndaten.a12b">A12b, Bemerkungen zum Alter/zur Datierung</label>
+      <label index="tx_bolonline_Kerndaten.a12c">A12c, Datierungsmethode</label>
+      <label index="tx_bolonline_Kerndaten.a12d">A12d, Bemerkungen zur Datierungsmethode</label>
+      <label index="tx_bolonline_Kerndaten.a13a">A13a, Fundort</label>
+      <label index="tx_bolonline_Kerndaten.a13b">A13b, Fundort-Koordinaten</label>
+      <label index="tx_bolonline_Kerndaten.a14a">A14a, Sammler (leg.)</label>
+      <label index="tx_bolonline_Kerndaten.a14b">A14b, Datum (leg.)</label>
+      <label index="tx_bolonline_Kerndaten.a15a">A15a, Donator/Geber (don./ded.)</label>
+      <label index="tx_bolonline_Kerndaten.a15b">A15b, Datum (don./ded.)</label>
+      <label index="tx_bolonline_Kerndaten.a16a">A16a, Erwerbsform</label>
+      <label index="tx_bolonline_Kerndaten.a16b">A16b, Erwerbsdatum</label>
+      <label index="tx_bolonline_Kerndaten.a17">A17, Bemerkungen zu Sammler, Donator und Erwerbsform</label>
+      <label index="tx_bolonline_Kerndaten.a18">A18, Erwähnungs-Original zu</label>
+      <label index="tx_bolonline_Kerndaten.a19">A19, Beschreibungs-Original zu</label>
+      <label index="tx_bolonline_Kerndaten.a20">A20, Abbildungs-Original zu</label>
+      <label index="tx_bolonline_Kerndaten.a21">A21, Botanischer-/Zoologischer-/Paläontologischer-/Mineralogischer Typus</label>
+      <label index="tx_bolonline_Kerndaten.a22">A22, Sekundär-Literatur</label>
+      <label index="tx_bolonline_Kerndaten.a23">A23, Bemerkungen zu Erwähnungs-, Beschreibungs- und Abbildungs-Originalen, Typus und Sekundär-Literatur</label>
+      <label index="tx_bolonline_Kerndaten.a24a">A24a,Standort<br>[Für externen Zugriff]</label>
+      <label index="tx_bolonline_Kerndaten.a24b">A24b, Standort<br>[Für internen Zugriff]</label>
+      <label index="tx_bolonline_Kerndaten.f1">F1, Bemerkungen (allgemein)</label>
+      <label index="tx_bolonline_Kerndaten.f2a">F2a, Bearbeiter</label>
+      <label index="tx_bolonline_Kerndaten.f2b">F2b, Datum der Erstbearbeitung</label>
+      <label index="tx_bolonline_Kerndaten.f3a">F3a, Letzte Änderung von</label>
+      <label index="tx_bolonline_Kerndaten.f3b">F3b, Letzte Änderung am</label>
+      <label index="tx_bolonline_Kerndaten.f4">F4, Verlinkung zu digitalisierten Etiketten</label>
+      <label index="tx_bolonline_Kerndaten.f5">F5, Verlinkung zu digitalisierten Objekten</label>                                                                                              
+      <label index="tx_bolonline_Kerndaten.f6">F6, Verlinkung zu digitalisierten Schriften</label>
+      <label index="tx_bolonline_Kerndaten.f7">F7, Verlinkung zu digitalisierten Original-Abbildungen</label>
+      <label index="tx_bolonline_Kerndaten.f8">F8, Verlinkung zu digitalisierten Briefen</label>
+      <label index="tx_bolonline_Kerndaten.f9">F9, Schlagworte</label>
+      <label index="tx_bolonline_Spezifizierung 'Objekt(e)'.a6">A6, Stückzahl/Serie</label>
+      <label index="tx_bolonline_Spezifizierung 'Objekt(e)'.b1">B1, Art des Objektes/der Objekte</label>
+      <label index="tx_bolonline_Spezifizierung 'Objekt(e)'.b2">B2, Material des Objektes/der Objekte</label>
+      <label index="tx_bolonline_Spezifizierung 'Objekt(e)'.b3a">B3a, Technik der Objektherstellung</label>
+      <label index="tx_bolonline_Spezifizierung 'Objekt(e)'.b3b">B3b, Ethnie</label>
+      <label index="tx_bolonline_Spezifizierung 'Objekt(e)'.b3c">B3c, Stilkundliche Zuordnung/Kultur</label>
+      <label index="tx_bolonline_Spezifizierung 'Objekt(e)'.b4a">B4a, Geschlecht</label>
+      <label index="tx_bolonline_Spezifizierung 'Objekt(e)'.b4b">B4b, Krankheitsstatus/pathologischer Befund</label>
+      <label index="tx_bolonline_Spezifizierung 'Objekt(e)'.b4c">B4c, Morphologischer Typus/geographische Region</label>
+      <label index="tx_bolonline_Spezifizierung 'Objekt(e)'.b5">B5, Funktion, Anwendung und Symbolik des Objektes/der Objekte</label>
+      <label index="tx_bolonline_Spezifizierung 'Objekt(e)'.b6">B6, Bemerkungen zur Art, Material, Funktion, ...</label>
+      <label index="tx_bolonline_Spezifizierung 'Objekt(e)'.b7a">B7a, Größe des Objektes/der Objekte [cm]</label>
+      <label index="tx_bolonline_Spezifizierung 'Objekt(e)'.b7b">B7b, Anthropologische Vermessung</label>
+      <label index="tx_bolonline_Spezifizierung 'Objekt(e)'.b8">B8, Gewicht des Objektes/der Objekte</label>
+      <label index="tx_bolonline_Spezifizierung 'Objekt(e)'.b9a">B9a, Art der historischen Aufbewahrung des Objektes/der Objekte</label>
+      <label index="tx_bolonline_Spezifizierung 'Objekt(e)'.b9b">B9b, Bemerkungen zur historischen Aufbewahrung</label>
+      <label index="tx_bolonline_Spezifizierung 'Objekt(e)'.b10a">B10a, Zustand des Objektes/der Objekte</label>
+      <label index="tx_bolonline_Spezifizierung 'Objekt(e)'.b10b">B10b, Bemerkungen zum Zustand des Objektes/der Objekte</label>
+      <label index="tx_bolonline_Spezifizierung 'Objekt(e)'.b11a">B11a, Konservierung/Restaurierung nötig?</label>
+      <label index="tx_bolonline_Spezifizierung 'Objekt(e)'.b11b">B11b, letzte Konservierung/Restaurierung</label>
+      <label index="tx_bolonline_Spezifizierung 'Objekt(e)'.b11c">B11c, Datum der letzten Konservierung/Restaurierung</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Text auf Etikett(en)'.a10">A10, Text vom Original-Etikett/von den Original-Etiketten</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Text auf Etikett(en)'.c1">C1, Anzahl der Original-Etiketten</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Text auf Etikett(en)'.c2">C2, Anzahl der Sekundär-Etiketten</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Text auf Etikett(en)'.c3">C3, Art und Position des Original-Etiketts/der Original-Etiketten</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Text auf Etikett(en)'.c4">C4, Größe des Original-Etiketts/der Original-Etiketten</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Text auf Etikett(en)'.c5">C5, Art der Schrift auf dem Original-Etiketts/den Original-Etiketten</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Text auf Etikett(en)'.c6a">C6a, Zustand des Original-Etiketts/der Original-Etiketten</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Text auf Etikett(en)'.c6b">C6b, Bemerkungen zum Zustand des Original-Etiketts/der Original-Etiketten</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Text auf Etikett(en)'.c7a">C7a, Konservierung/Restaurierung nötig</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Text auf Etikett(en)'.c7b">C7b, letzte Konservierung/Restaurierung</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Text auf Etikett(en)'.c7c">C7c, Datum der letzten Konservierung/Restaurierung</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Text auf Objekt(en) bzw. historischer Aufbewahrung, ohne Etikett'.a11">A11, Text von Original-Beschriftung direkt auf dem Objekt/den Objekten</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Text auf Objekt(en) bzw. historischer Aufbewahrung, ohne Etikett'.d1">D1, Position des historischen Textes auf dem Objekt/den Objekten bzw. der historischen Aufbewahrung</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Text auf Objekt(en) bzw. historischer Aufbewahrung, ohne Etikett'.d2">D2, Schrift des historischen Textes auf dem Objekt/den Objekten bzw. der historischen Aufbewahrung</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Text auf Objekt(en) bzw. historischer Aufbewahrung, ohne Etikett'.d3a">D3a, Zustand des Original-Textes auf dem Objekt/den Objekten bzw. der historischen Aufbewahrung</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Text auf Objekt(en) bzw. historischer Aufbewahrung, ohne Etikett'.d3b">D3b, Bemerkungen zum Zustand des Original-Textes auf dem Objekt/den Objekten bzw. der historischen Aufbewahrung</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Nummer(n)'.a4">A4, Original-Nummer(n)</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Nummer(n)'.e1">E1, Art und Position der Original-Nummer(n)</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Nummer(n)'.e2">E2, Größe der Etiketten der Original-Nummer(n)</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Nummer(n)'.e3">E3, Art der Schrift der Original-Nummer(n)</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Nummer(n)'.e4a">E4a, Zustand der Original-Nummer(n)</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Nummer(n)'.e4b">E4b, Bemerkungen zum Zustand der Original-Nummer(n)</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Nummer(n)'.e5a">E5a, Konservierung/Restaurierung nötig</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Nummer(n)'.e5b">E5b, letzte Konservierung/Restaurierung</label>
+      <label index="tx_bolonline_Spezifizierung 'Original-Nummer(n)'.e5c">E5c, Datum der letzten Konservierung/Restaurierung</label>
+    </languageKey>
+    <languageKey index="de" type="array">
+      <label index="tt_content.list_type_pi1">BOL-Database</label>
+      <label index="tx_bolonline_Kerndaten.a0">A0, Zusammenfassende Bezeichnung</label>
+      <label index="tx_bolonline_Kerndaten.a1">A1, Zuordnung</label>
+      <label index="tx_bolonline_Kerndaten.a2">A2, Sammlungs-Akronym</label>
+      <label index="tx_bolonline_Kerndaten.a3">A3, Heutige Inventar-Nummer</label>
+      <label index="tx_bolonline_Kerndaten.a4">A4, Original-Nummer(n)</label>
+    </languageKey>
+  </data>
+</T3locallang>
+
+
+
+
