@@ -3,8 +3,6 @@
 $TYPO3_CONF_VARS['BE']['installToolPassword'] = '1176569fcc1771beb2405c0c56bf9a55';
 ## INSTALL SCRIPT EDIT POINT TOKEN - all lines after this points may be changed by the install script!
 
-$typo_db_username = 'blumenbach';	//  Modified or inserted by TYPO3 Install Tool.
-$typo_db_password = 't??sven*+9';	//  Modified or inserted by TYPO3 Install Tool.
 $typo_db_host = 'localhost';	//  Modified or inserted by TYPO3 Install Tool.
 $TYPO3_CONF_VARS['SYS']['sitename'] = 'Blumenbach Online';	//  Modified or inserted by TYPO3 Install Tool.
 $TYPO3_CONF_VARS['SYS']['encryptionKey'] = '2db904755e5257f1f06a8c129f902546ed2d87f204886f66663dd091da3d3f2622951f7a3ce7272089242dc088de4dc5';	//  Modified or inserted by TYPO3 Install Tool.
