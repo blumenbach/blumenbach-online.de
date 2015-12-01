@@ -1,0 +1,35 @@
+(add new changes on top of this file)
+
+07-09-11 Joerg Schoppet <joergATschoppetDOTde>
+	* Update to version 0.2.5 of xajax
+
+06-12-28 Elmar Hinz  <elmar.hinz@team-red.net>
+
+	* Added some CDATA comments to class.tx_xajax.php to make it work with complex URIs
+
+06-07-9 Elmar Hinz  <elmar.hinz@team-red.net>
+
+	* Update to version 0.2.4 of xajax	
+	* More info: http://community.xajaxproject.org/viewforum.php?id=6
+	* For changelog of xajax 0.2.4 see: http://wiki.xajaxproject.org/0.2.4_Release_Notes
+
+06-03-20 Elmar Hinz  <elmar.hinz@team-red.net>
+
+	* Update to version 0.2.3 of xajax	
+	* More info: http://community.xajaxproject.org/viewforum.php?id=6
+	* For changelog of xajax 0.2.3 see: http://wiki.xajaxproject.org/0.2.3_Release_Notes
+	* For changelog of xajax 0.2.2 see: http://wiki.xajaxproject.org/0.2.2_Release_Notes
+
+06-03-17 Elmar Hinz  <elmar.hinz@team-red.net>
+
+	* Update to version 0.2.1 of xajax
+	* For changelog of xajax 0.2.1 see: http://wiki.xajaxproject.org/0.2.1_Release_Notes
+	* ATTENTION: renaming of Classes to TYPO3 standards: 
+	* xajax => tx_xajax
+	* xajaxResponse => tx_xajax_response
+
+06-01-31 Elmar Hinz  <elmar.hinz@team-red.net>
+
+	* Initial release	
+	* Implementation of xajax as TYPO3 extension
+	* License change form LGPL to GPL on base of LGPL SEC 3.3

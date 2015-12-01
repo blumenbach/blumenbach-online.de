@@ -1,0 +1,16 @@
+.cp-saved {
+  background-color: green;
+  margin: 0 0 0 20px;
+  padding: 0 10px 0 10px;
+  font-weight: bold;
+  color: white;
+}
+
+code.cp {
+  background: #fff;
+  color: silver;
+}
+
+textarea.cp {
+  display: none;
+}

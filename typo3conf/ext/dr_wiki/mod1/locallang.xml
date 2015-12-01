@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>Labels for the dr_wiki BE module</description>
+        <type>module</type>
+        <csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="title">DR Wiki Administration</label>
+            <label index="admin">Administration: </label>
+            <label index="versions">Versions: </label>
+            <label index="versionsof">Versions of: </label>
+            <label index="content">Content:</label>
+            <label index="contentof">Content of: </label>
+            <label index="function1">Standard Functions</label>
+            <label index="function2">Clear Caches</label>
+            <label index="function3">Help</label>
+            <label index="yes">Yes</label>
+            <label index="no">No</label>
+            <label index="msg_start">In order to administrate a Wiki, please choose a page that contains the Wiki plugin.</label>
+            <label index="msg_edititem">Click on a Wiki-word and afterwards on a version-id to get the content of the Wiki-page.</label>
+            <label index="msg_versions">Click on a Wiki-word to get a listing of the versions.</label>
+            <label index="wiki_word">Wiki words: </label>
+            <label index="header_ID">ID</label>
+            <label index="header_AUTHOR">AUTHOR</label>
+            <label index="header_DATE">DATE</label>
+            <label index="header_SUMMARY">SUMMARY</label>
+            <label index="header_OPTIONS">OPTIONS</label>
+            <label index="alt_LOCK">Lock Item</label>
+            <label index="alt_UNLOCK">Unlock Item</label>
+            <label index="alt_VIEW">View Item</label>
+            <label index="alt_DELETE">Delete Item</label>
+            <label index="alt_DELOLDER">Delete Older Items</label>
+            <label index="alt_DELOTHERS">Delete Other Items</label>
+            <label index="err_noLock">The page could not be locked!</label>
+            <label index="err_delAll">An error occured when deleting the following wiki-word!</label>
+            <label index="err_noUnlock">The page could not be unlocked!</label>
+            <label index="err_delSingleUid">An error occured when deleting the following version!</label>
+            <label index="err_delOlderUid">An error occured when deleting the following older versions!</label>
+            <label index="err_delAllOther">An error occured when deleting all other version!</label>
+            <label index="cmd_delAll">Do you really want to delete all version of the following wiki-word?</label>
+            <label index="cmd_delAllDone">You deleted all versions of the following wiki-word!</label>
+            <label index="cmd_delSingleUid">Do you really want to delete this version of the following wiki-word?</label>
+            <label index="cmd_delSingleUidDone">You deleted the following version!</label>
+            <label index="cmd_delOlderUid">Do you really want to delete all older versions of the following wiki-word?</label>
+            <label index="cmd_delOlderUidDone">You deleted all older versions!</label>
+            <label index="cmd_delAllOther">Do you really want to delete all older versions (except this one) of the following wiki-word?</label>
+            <label index="cmd_delAllOtherDone">You deleted all other versions of the following wiki-word!</label>
+        </languageKey>
+        <languageKey index="dk" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="title">DR Wiki Administration</label>
+            <label index="admin">Administration: </label>
+            <label index="versions">Versionen: </label>
+            <label index="versionsof">Versionen von: </label>
+            <label index="content">Inhalt</label>
+            <label index="contentof">Inhalt von: </label>
+            <label index="function1">Standardfunktionen</label>
+            <label index="function2">Cache löschen</label>
+            <label index="function3">Hilfe</label>
+            <label index="yes">Ja</label>
+            <label index="no">Nein</label>
+            <label index="msg_start">Um ein Wiki zu Administrieren wählen Sie zunächst die Seite aus, die die Wiki-Seiten enthält.</label>
+            <label index="msg_edititem">Klicken Sie zunächst auf ein Wiki-Wort, und dann unter Versionen auf eine Id, um den Inhalt anzuzeigen.</label>
+            <label index="msg_versions">Klicken Sie auf ein Wiki-Wort, um die Versionen anzuzeigen.</label>
+            <label index="wiki_word">Wiki-Worte: </label>
+            <label index="header_ID">ID</label>
+            <label index="header_AUTHOR">AUTOR</label>
+            <label index="header_DATE">DATUM</label>
+            <label index="header_OPTIONS">OPTIONEN</label>
+            <label index="header_SUMMARY">ZUSAMMENFASSUNG</label>
+            <label index="alt_LOCK">Eintrag sperren</label>
+            <label index="alt_UNLOCK">Eintrag entsperren</label>
+            <label index="alt_VIEW">Eintrag ansehen</label>
+            <label index="alt_DELETE">Eintrag löschen</label>
+            <label index="alt_DELOLDER">Ältere Einträge löschen</label>
+            <label index="alt_DELOTHERS">Alle anderen Einträge löschen</label>
+            <label index="err_noLock">Die Seite konnte nicht gesperrt werden!</label>
+            <label index="err_delAll">Beim löschen des folgenden Wiki-Worts ist ein Fehler aufgetreten!</label>
+            <label index="err_noUnlock">Die Seite konnte nicht freigegeben werden!</label>
+            <label index="err_delSingleUid">Beim löschen der folgenden Version ist ein Fehler aufgetreten!</label>
+            <label index="err_delOlderUid">Beim löschen der folgenden älteren Version ist ein Fehler aufgetreten!</label>
+            <label index="err_delAllOther">Beim löschen aller Version, ausser der folgenden, ist ein Fehler aufgetreten!</label>
+            <label index="cmd_delAll">Wollen Sie wirklich &lt;b&gt;alle&lt;/b&gt; Versionen des folgenden Wiki-Worts löschen?</label>
+            <label index="cmd_delAllDone">Sie haben soeben alle Versionen des folgenden Wiki-Worts gelöscht!</label>
+            <label index="cmd_delSingleUid">Wollen Sie die folgende Version wirklich löschen?</label>
+            <label index="cmd_delSingleUidDone">Sie haben soeben die folgende Version gelöscht!</label>
+            <label index="cmd_delOlderUid">Wollen Sie wirklich alle Versionen, die älter als die folgende Version sind löschen?</label>
+            <label index="cmd_delOlderUidDone">Sie haben soeben die folgenden älteren Versionen gelöscht!</label>
+            <label index="cmd_delAllOther">Wollen Sie wirklich alle Versionen, ausser diese, löschen?</label>
+            <label index="cmd_delAllOtherDone">Sie haben soeben die folgenden Versionen gel&amp;öscht!</label>
+        </languageKey>
+        <languageKey index="no" type="array">
+        </languageKey>
+        <languageKey index="it" type="array">
+        </languageKey>
+        <languageKey index="fr" type="array">
+        </languageKey>
+        <languageKey index="es" type="array">
+        </languageKey>
+        <languageKey index="nl" type="array">
+        </languageKey>
+        <languageKey index="cz" type="array">
+        </languageKey>
+        <languageKey index="pl" type="array">
+        </languageKey>
+        <languageKey index="si" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+            <label index="title">DR Wiki Hallinta</label>
+            <label index="admin">Hallinta:</label>
+            <label index="versions">Versiot:</label>
+            <label index="versionsof">Versio:</label>
+            <label index="content">Sisältö</label>
+            <label index="contentof">Sisältö:</label>
+            <label index="function1">Vakiotoiminnot:</label>
+            <label index="function2">Muokkaa koko Wikiä</label>
+            <label index="function3">Apuja</label>
+            <label index="yes">Kyllä</label>
+            <label index="no">Ei</label>
+            <label index="msg_start">Hallitaksesi Wikiä ole ystävällinen ja valitse sivu jossa Wiki plugin sijaitsee:</label>
+            <label index="msg_edititem">Näpsäytä Wiki-sanaa ja sen jälkeen verio-id:tä saadaksesi Wiki-sivun esille.</label>
+            <label index="msg_versions">Näpsäytä Wiki-sanaa saadaksesi listauksen versioista.</label>
+            <label index="wiki_word">Wikisanat:</label>
+            <label index="header_ID">ID</label>
+            <label index="header_AUTHOR">AUTHOR</label>
+            <label index="header_DATE">DATE</label>
+            <label index="header_OPTIONS">OPTIONS</label>
+            <label index="alt_LOCK">Lukitse osa</label>
+            <label index="alt_UNLOCK">Poista lukitus osa</label>
+            <label index="alt_VIEW">Näytä osa</label>
+            <label index="alt_DELETE">Poista osa</label>
+            <label index="alt_DELOLDER">Poista vanhemmat osat</label>
+            <label index="alt_DELOTHERS">Poista muut osat</label>
+        </languageKey>
+        <languageKey index="tr" type="array">
+        </languageKey>
+        <languageKey index="se" type="array">
+        </languageKey>
+        <languageKey index="pt" type="array">
+        </languageKey>
+        <languageKey index="ru" type="array">
+        </languageKey>
+        <languageKey index="ro" type="array">
+        </languageKey>
+        <languageKey index="ch" type="array">
+        </languageKey>
+        <languageKey index="sk" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+        </languageKey>
+        <languageKey index="is" type="array">
+        </languageKey>
+        <languageKey index="hr" type="array">
+        </languageKey>
+        <languageKey index="hu" type="array">
+        </languageKey>
+        <languageKey index="gl" type="array">
+        </languageKey>
+        <languageKey index="th" type="array">
+        </languageKey>
+        <languageKey index="gr" type="array">
+        </languageKey>
+        <languageKey index="hk" type="array">
+        </languageKey>
+        <languageKey index="eu" type="array">
+        </languageKey>
+        <languageKey index="bg" type="array">
+        </languageKey>
+        <languageKey index="br" type="array">
+        </languageKey>
+        <languageKey index="et" type="array">
+        </languageKey>
+        <languageKey index="ar" type="array">
+        </languageKey>
+        <languageKey index="he" type="array">
+        </languageKey>
+        <languageKey index="ua" type="array">
+        </languageKey>
+        <languageKey index="lv" type="array">
+        </languageKey>
+        <languageKey index="jp" type="array">
+        </languageKey>
+        <languageKey index="vn" type="array">
+        </languageKey>
+        <languageKey index="ca" type="array">
+        </languageKey>
+        <languageKey index="ba" type="array">
+        </languageKey>
+        <languageKey index="kr" type="array">
+        </languageKey>
+    </data>
+    <orig_hash type="array">
+        <languageKey index="default" type="array">
+            <label index="title" type="integer">5490116</label>
+            <label index="admin" type="integer">249120065</label>
+            <label index="versions" type="integer">228102591</label>
+            <label index="versionsof" type="integer">50907538</label>
+            <label index="content" type="integer">253232975</label>
+            <label index="contentof" type="integer">155160770</label>
+            <label index="function1" type="integer">121270127</label>
+            <label index="function2" type="integer">259128920</label>
+            <label index="function3" type="integer">111308628</label>
+            <label index="yes" type="integer">154974727</label>
+            <label index="no" type="integer">196073266</label>
+            <label index="msg_start" type="integer">116182959</label>
+            <label index="msg_edititem" type="integer">17106740</label>
+            <label index="msg_versions" type="integer">60884402</label>
+            <label index="wiki_word" type="integer">212497359</label>
+            <label index="header_ID" type="integer">191990494</label>
+            <label index="header_AUTHOR" type="integer">106413843</label>
+            <label index="header_DATE" type="integer">104048327</label>
+            <label index="header_SUMMARY" type="integer">57458379</label>
+            <label index="header_OPTIONS" type="integer">23387490</label>
+            <label index="alt_LOCK" type="integer">260889133</label>
+            <label index="alt_UNLOCK" type="integer">126242429</label>
+            <label index="alt_VIEW" type="integer">31794211</label>
+            <label index="alt_DELETE" type="integer">242014136</label>
+            <label index="alt_DELOLDER" type="integer">173428505</label>
+            <label index="alt_DELOTHERS" type="integer">231114220</label>
+            <label index="err_noLock" type="integer">131442129</label>
+            <label index="err_delAll" type="integer">14099069</label>
+            <label index="err_noUnlock" type="integer">17159844</label>
+            <label index="err_delSingleUid" type="integer">96327590</label>
+            <label index="err_delOlderUid" type="integer">36358866</label>
+            <label index="err_delAllOther" type="integer">244346966</label>
+            <label index="cmd_delAll" type="integer">114951087</label>
+            <label index="cmd_delAllDone" type="integer">139119360</label>
+            <label index="cmd_delSingleUid" type="integer">224042813</label>
+            <label index="cmd_delSingleUidDone" type="integer">137361052</label>
+            <label index="cmd_delOlderUid" type="integer">70624828</label>
+            <label index="cmd_delOlderUidDone" type="integer">238638527</label>
+            <label index="cmd_delAllOther" type="integer">204833633</label>
+            <label index="cmd_delAllOtherDone" type="integer">63092158</label>
+        </languageKey>
+        <languageKey index="dk" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="title" type="integer">5490116</label>
+            <label index="admin" type="integer">249120065</label>
+            <label index="versions" type="integer">228102591</label>
+            <label index="versionsof" type="integer">50907538</label>
+            <label index="content" type="integer">253232975</label>
+            <label index="contentof" type="integer">155160770</label>
+            <label index="function1" type="integer">121270127</label>
+            <label index="function2" type="integer">259128920</label>
+            <label index="function3" type="integer">111308628</label>
+            <label index="yes" type="integer">154974727</label>
+            <label index="no" type="integer">196073266</label>
+            <label index="msg_start" type="integer">116182959</label>
+            <label index="msg_edititem" type="integer">17106740</label>
+            <label index="msg_versions" type="integer">60884402</label>
+            <label index="wiki_word" type="integer">212497359</label>
+            <label index="header_ID" type="integer">191990494</label>
+            <label index="header_AUTHOR" type="integer">106413843</label>
+            <label index="header_DATE" type="integer">104048327</label>
+            <label index="header_OPTIONS" type="integer">23387490</label>
+            <label index="header_SUMMARY" type="integer">57458379</label>
+            <label index="alt_LOCK" type="integer">260889133</label>
+            <label index="alt_UNLOCK" type="integer">126242429</label>
+            <label index="alt_VIEW" type="integer">31794211</label>
+            <label index="alt_DELETE" type="integer">242014136</label>
+            <label index="alt_DELOLDER" type="integer">173428505</label>
+            <label index="alt_DELOTHERS" type="integer">231114220</label>
+            <label index="err_noLock" type="integer">131442129</label>
+            <label index="err_delAll" type="integer">14099069</label>
+            <label index="err_noUnlock" type="integer">17159844</label>
+            <label index="err_delSingleUid" type="integer">96327590</label>
+            <label index="err_delOlderUid" type="integer">36358866</label>
+            <label index="err_delAllOther" type="integer">244346966</label>
+            <label index="cmd_delAll" type="integer">114951087</label>
+            <label index="cmd_delAllDone" type="integer">139119360</label>
+            <label index="cmd_delSingleUid" type="integer">224042813</label>
+            <label index="cmd_delSingleUidDone" type="integer">137361052</label>
+            <label index="cmd_delOlderUid" type="integer">70624828</label>
+            <label index="cmd_delOlderUidDone" type="integer">238638527</label>
+            <label index="cmd_delAllOther" type="integer">204833633</label>
+            <label index="cmd_delAllOtherDone" type="integer">63092158</label>
+        </languageKey>
+        <languageKey index="no" type="array">
+        </languageKey>
+        <languageKey index="it" type="array">
+        </languageKey>
+        <languageKey index="fr" type="array">
+        </languageKey>
+        <languageKey index="es" type="array">
+        </languageKey>
+        <languageKey index="nl" type="array">
+        </languageKey>
+        <languageKey index="cz" type="array">
+        </languageKey>
+        <languageKey index="pl" type="array">
+        </languageKey>
+        <languageKey index="si" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+            <label index="title" type="integer">5490116</label>
+            <label index="admin" type="integer">249120065</label>
+            <label index="versions" type="integer">228102591</label>
+            <label index="versionsof" type="integer">50907538</label>
+            <label index="content" type="integer">253232975</label>
+            <label index="contentof" type="integer">155160770</label>
+            <label index="function1" type="integer">121270127</label>
+            <label index="function2" type="integer">259128920</label>
+            <label index="function3" type="integer">111308628</label>
+            <label index="yes" type="integer">154974727</label>
+            <label index="no" type="integer">196073266</label>
+            <label index="msg_start" type="integer">116182959</label>
+            <label index="msg_edititem" type="integer">17106740</label>
+            <label index="msg_versions" type="integer">60884402</label>
+            <label index="wiki_word" type="integer">212497359</label>
+            <label index="header_ID" type="integer">191990494</label>
+            <label index="header_AUTHOR" type="integer">106413843</label>
+            <label index="header_DATE" type="integer">104048327</label>
+            <label index="header_OPTIONS" type="integer">23387490</label>
+            <label index="alt_LOCK" type="integer">260889133</label>
+            <label index="alt_UNLOCK" type="integer">126242429</label>
+            <label index="alt_VIEW" type="integer">31794211</label>
+            <label index="alt_DELETE" type="integer">242014136</label>
+            <label index="alt_DELOLDER" type="integer">173428505</label>
+            <label index="alt_DELOTHERS" type="integer">231114220</label>
+        </languageKey>
+        <languageKey index="tr" type="array">
+        </languageKey>
+        <languageKey index="se" type="array">
+        </languageKey>
+        <languageKey index="pt" type="array">
+        </languageKey>
+        <languageKey index="ru" type="array">
+        </languageKey>
+        <languageKey index="ro" type="array">
+        </languageKey>
+        <languageKey index="ch" type="array">
+        </languageKey>
+        <languageKey index="sk" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+        </languageKey>
+        <languageKey index="is" type="array">
+        </languageKey>
+        <languageKey index="hr" type="array">
+        </languageKey>
+        <languageKey index="hu" type="array">
+        </languageKey>
+        <languageKey index="gl" type="array">
+        </languageKey>
+        <languageKey index="th" type="array">
+        </languageKey>
+        <languageKey index="gr" type="array">
+        </languageKey>
+        <languageKey index="hk" type="array">
+        </languageKey>
+        <languageKey index="eu" type="array">
+        </languageKey>
+        <languageKey index="bg" type="array">
+        </languageKey>
+        <languageKey index="br" type="array">
+        </languageKey>
+        <languageKey index="et" type="array">
+        </languageKey>
+        <languageKey index="ar" type="array">
+        </languageKey>
+        <languageKey index="he" type="array">
+        </languageKey>
+        <languageKey index="ua" type="array">
+        </languageKey>
+        <languageKey index="lv" type="array">
+        </languageKey>
+        <languageKey index="jp" type="array">
+        </languageKey>
+        <languageKey index="vn" type="array">
+        </languageKey>
+        <languageKey index="ca" type="array">
+        </languageKey>
+        <languageKey index="ba" type="array">
+        </languageKey>
+        <languageKey index="kr" type="array">
+        </languageKey>
+    </orig_hash>
+    <orig_text type="array">
+        <languageKey index="default" type="array">
+        </languageKey>
+        <languageKey index="dk" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+        </languageKey>
+        <languageKey index="no" type="array">
+        </languageKey>
+        <languageKey index="it" type="array">
+        </languageKey>
+        <languageKey index="fr" type="array">
+        </languageKey>
+        <languageKey index="es" type="array">
+        </languageKey>
+        <languageKey index="nl" type="array">
+        </languageKey>
+        <languageKey index="cz" type="array">
+        </languageKey>
+        <languageKey index="pl" type="array">
+        </languageKey>
+        <languageKey index="si" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+        </languageKey>
+        <languageKey index="tr" type="array">
+        </languageKey>
+        <languageKey index="se" type="array">
+        </languageKey>
+        <languageKey index="pt" type="array">
+        </languageKey>
+        <languageKey index="ru" type="array">
+        </languageKey>
+        <languageKey index="ro" type="array">
+        </languageKey>
+        <languageKey index="ch" type="array">
+        </languageKey>
+        <languageKey index="sk" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+        </languageKey>
+        <languageKey index="is" type="array">
+        </languageKey>
+        <languageKey index="hr" type="array">
+        </languageKey>
+        <languageKey index="hu" type="array">
+        </languageKey>
+        <languageKey index="gl" type="array">
+        </languageKey>
+        <languageKey index="th" type="array">
+        </languageKey>
+        <languageKey index="gr" type="array">
+        </languageKey>
+        <languageKey index="hk" type="array">
+        </languageKey>
+        <languageKey index="eu" type="array">
+        </languageKey>
+        <languageKey index="bg" type="array">
+        </languageKey>
+        <languageKey index="br" type="array">
+        </languageKey>
+        <languageKey index="et" type="array">
+        </languageKey>
+        <languageKey index="ar" type="array">
+        </languageKey>
+        <languageKey index="he" type="array">
+        </languageKey>
+        <languageKey index="ua" type="array">
+        </languageKey>
+        <languageKey index="lv" type="array">
+        </languageKey>
+        <languageKey index="jp" type="array">
+        </languageKey>
+        <languageKey index="vn" type="array">
+        </languageKey>
+        <languageKey index="ca" type="array">
+        </languageKey>
+        <languageKey index="ba" type="array">
+        </languageKey>
+        <languageKey index="kr" type="array">
+        </languageKey>
+    </orig_text>
+</T3locallang>

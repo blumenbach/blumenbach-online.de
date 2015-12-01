@@ -1,0 +1,4 @@
+plugin.tx_piiframe_pi1 {
+	stdWrap.offsetWrap = 0,0,0,0,0,400
+	stdWrap.offsetWrap.tableParams = border=0 cellspacing=0 cellpadding=0 width=100%
+}

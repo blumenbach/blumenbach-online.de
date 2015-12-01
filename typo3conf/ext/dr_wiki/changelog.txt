@@ -1,0 +1,180 @@
+Version 1.7.0
+* Added 3 new plugins (BACKLINKS, CATEGORYINDEX, CREATE) thx to Vincent Vijn
+* More at http://www.myasterisk.de/wiki/Help%3APlug-Ins%20General/
+
+Version 1.6.0
+* Updated BE Module of dr_wiki to use dbal functions. 
+* Started revision of the code.
+
+Version 1.5.6
+* Fix: unclosed span tag in the linkKeyword function
+* Added 2 hooks: drwiki_SubmitBeforeInsert, drwiki_SubmitAfterInsert To manipulate the content or the database handling (thx to Fernando Arconada)
+* Enhanced the template handler
+* Added template arguments, enhancing the rendering process for templates ({{{no.}}})
+
+Version 1.5.5
+* New: Added section editing
+* Fixed bug with reload button
+
+Version 1.5.4
+* Added support for the rating extension  (thx to Fernando Arconada)
+* Fixed bug in template --> please update
+
+Version 1.5.3
+[+++] Please note: This version requires an update of your templates and constants
+[+++] Added new documentation based on www.myasterisk.de (Thx to Benjamin Schulte & Christian Kahl)
+* Enhanced the references. Now the links are highlighted for better navigation
+* Added Spanish Translation (thx to Fernando Arconada)
+* Added toolbar icon for the <ref> function
+* Added Wiki Tools box to the editor for better convenience, when editing wiki pages.
+* Added security function for list view to prevent that pages can be edited if a page is locked
+* Re-organised files in /res folder for better maintainability
+* Added functionality for a wiki admin, so pages can be edited and set to read-only by a wiki admin in the FE
+* Added a more advanced HTML cleaning class for security (fixed bug ID1772328)
+* Fixed list (ul,ol,li) handling in wiki markup (fixes bug ID1772327)
+* Added rel="no-follow" attributes to links in editor to suppress search engines to follow the links (thx to Cate Deans Smith) 
+
+Version 1.5.2
+* Added rudimentary support for MediaWiki style references using the <ref> and <references> tags
+* Extended noWiki Tag to ignore headings
+
+Version 1.5.1
+* Fixed bug: "last changed pages" shows oldest page instead of newest (ID1815284)
+* Updated extension's meta data
+
+Version 1.5.0
+* Fixed several bugs in the SQL handling of Wiki pages (thx to Kasper M. Petersen)
+* Fixed bad create without login behaviour for new pages (thx to Cate Deans Smith)
+
+Version 1.4.5
+* Fixed broken images in editor
+* Added note + image when a newer page has been sbmitted
+
+Version 1.4.4
+* Adapted NoWiki function to handle br tags
+* Fixed a bug in the noinclude directive to prevent inclusion of already parsed and cached code
+* Added more buttons to the toolbar
+
+Version 1.4.3
+* Added <noinclude> directive for templates
+* Added <nowiki> button to the editor toolbar
+* Updated language files and removed several translation bugs
+* Added new icons from http://www.famfamfam.com/lab/icons/silk/
+
+Version 1.4.2
+* Now the used wiki templates are shown in the editor when editing a page. 
+
+Version 1.4.1
+* Fixed issue with tables and wiki links, extended the nowiki tags to also 
+    remove wiki links - thx to Daniel Minder for this patch
+
+Version 1.4.0
+* added nowiki tags, cleaned up code, made the search plugin work again, 
+* Added preview on footer and header functionality (FF)
+
+Version 1.3
+* Several security updates and general bug fixing. Special thx goes to Christian Kuhn for 
+    pointing out several bugs in dr_wiki. More to come soon :-)
+
+Version 1.2
+* Added DBAL patch provided by Henning Schild.
+
+Version 1.1
+* Added templating capabilities for Wiki-Templates, which can be inserted automatically in 
+    the Wiki editor. This feature can be configured in the FlexForm of dr_wiki.
+* Minor fixes in the rendering engine.
+
+Version 1.0.2
+* Fixed bug in the redirecting. If a circular redirect exists dr_wiki does 
+    not end-up in an infinite loop anymore. 
+
+Version 1.0.1
+* Added page-template feature for new pages. This feature needs to be configurated in the FlexForm.
+
+Version 1.0.0
+* Fixed another ":" issue with regard to the rendering of internal links
+* Added templating for Wiki pages, introducing the namespace "Template" to
+    store the templates (e.g. {{myTemplate}} references [[Template:myTemplate]])
+* Added more variables, providing additional Wiki information 
+    (see manual for details)
+* Fixed redirect, if a redirect is set to a non-existing page. In this case the
+    creation of a new page will be initiated.
+* Updated the diff view. Now, both version will be displayed for better usability.
+
+Version 0.9.1
+* Removed a bug in the rendering of internal links if a “:” is present, 
+    but no actual namespace is referenced (thx to Els Soenens for reporting)
+
+Version 0.9
+* Added diff function for comparing old page versions to the most up-to-date version. 
+* Added “redirect to login page” option, if a non-logged-in user tries to edit a Wiki 
+    page (see FlexForm configuration) - Thx to Julian Hein (NETWAYS) for contributing this feature!
+
+Version 0.8.1
+* Solved an SQL Query issue, causing dr_wiki to produce error messages (thx to Friedemann Gehrt for reporting)
+* Added __NOTOC__ and __NONUMBERHEADINGS__ directives for page markups and TOC manipulation.
+
+Version 0.8
+* More configuration options added to FlexForm
+* Added tooltips and shortcuts to wiki-page editor and toolbar
+* Updated the extension's template
+* General code cleanup and removal of unused functions
+* Added enhanced internal links (Mediawiki style)
+* Added signatures for Discussions
+* Added Wiki variables, displaying meta info or date/time functions
+
+Version 0.7.2
+* Added support for external templates via FlexForm.
+* Enhanced the detection of the user [user/username/IP/anonymous] (thx to Christian Welzel)
+* Introduced namspaces and InterWiki links (see manual for details).
+
+Version 0.7.1
+* Fixed a bug in the setting of the Startingpoint (thx to Christian Welzel for noticing)
+
+Version 0.7
+* Added FlexForm configuration for: TOC, Caching, etc. 
+* Added back-link for discussion (thx to André Deuker for the idea). 
+* Read-Only option for Wiki (Wiki-Viewer) 
+* Localisation of BE-Module (en/de) 
+* Clear cache from BE 
+* General code clean-up
+
+IMPORTANT VERSION NOTE: 
+To make the caching run properly, you need to clear the tx_drwiki_cache table from the BE-Module!
+
+Version 0.6.2
+* Got rid of the bug to explicitly set the Startingpoint of the Wiki; 
+    now the actual page is used as default value and Sys-Folders can be used as Startingpoint 
+    to store Wiki-pages (thx to Michael Vogel for reporting this bug).
+
+Version 0.6.1 & 0.6
+* Added check for newer versions of a wiki-page that has been edited while another user saved his/her changes.
+* got rid of the bug to explicitly set the startingpoint; now the actual page is used as default value.
+* Added some additional usability features:
+    - reload button, 
+    - link for the key word, 
+    - when aboting the edit of a page, the user gets linked back to the referring page
+    - etc.).
+* The issue wrt the "php_flag allow_call_time_pass_reference" is solved, so this flag does not need to 
+    be set in the .htaccess file anymore.
+* Finally, the bug wrt to the formatting of external links (missing spaces) is solved.
+
+Version 0.5.2
+* Fixed a bug in the rendering of links 
+* Added support for multiple redirects. 
+* Removed unused "cancelEdit" code from code.
+
+Version 0.5.1
+* Fixed a small bug in the discussion sectio when adding a discussion 
+* Added "#REDIRECT [[Link]]" for redirecting to other pages
+
+Version 0.5
+* Added caching of rendered pages
+* Added toolbar for the editor
+* Needed JS Code is now externalised for easier maintenance
+* General code clean-up and removal of unused elements
+
+Version 0.4
+* Added better rendering of headers, including TOC for wiki-pages (mediawiki compliant markups). 
+* See Changelog for further details.
+

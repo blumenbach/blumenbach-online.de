@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>Labels for dr_wiki</description>
+        <type>module</type>
+        <csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="listFieldHeader_keyword">Keyword</label>
+            <label index="listFieldHeader_body">Body</label>
+            <label index="listFieldHeader_date">Date</label>
+            <label index="listFieldHeader_author">Author</label>
+            <label index="listFieldHeader_locked">Locked</label>
+            <label index="listFieldHeader_tstamp">Date</label>
+            <label index="listFieldHeader_uid">Id</label>
+            <label index="listFieldHeader_diff">Compare</label>
+            <label index="listFieldHeader_summary">Summary</label>
+            <label index="pi_toc_show">Show TOC</label>
+            <label index="pi_toc_hide">Hide TOC</label>
+            <label index="pi_toc_header">Contents</label>
+            <label index="pi_discussion">Discussion</label>
+            <label index="pi_backToKeyword">Back to </label>
+            <label index="pi_msg_redirect">&lt;b&gt;This page is a redirect from the article:&lt;/b&gt; </label>
+            <label index="pi_list_browseresults_prev">&lt; Previous</label>
+            <label index="pi_list_browseresults_page">Page</label>
+            <label index="pi_list_browseresults_next">Next &gt;</label>
+            <label index="pi_list_browseresults_displays">Displaying results ###SPAN_BEGIN###%s to %s&lt;/span&gt; out of ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+            <label index="pi_list_searchBox_search">Search</label>
+            <label index="pi_diff_link_latest_ver">compare to newest</label>
+            <label index="pi_edit_cancel">Cancel / Exit</label>
+            <label index="pi_edit_reset">Reset</label>
+            <label index="pi_edit_save">Save</label>
+            <label index="pi_edit_preview">Preview</label>
+            <label index="pi_add_template"> &lt;em&gt;Insert Template:&lt;/em&gt;</label>
+            <label index="pi_edit_ver_warning">&lt;b&gt;&lt;em&gt;Attention:&lt;/em&gt; Another user has changed the same version of this article earlier! Please edit this page again using the most recent version - Your current changes have not been saved and the latest version is displayed!&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;</label>
+            <label index="pi_edit_tmpledit">[Edit]</label>
+            <label index="pi_edit_usedtmpl">Used Wiki Templates</label>
+            <label index="pi_wiki_createtmpl">did not exist - click here to create it</label>
+            <label index="tb_bold_sample">Bold text</label>
+            <label index="tb_bold_tip">[Alt+Shift+B] Bold text</label>
+            <label index="tb_italic_sample">Italic text</label>
+            <label index="tb_italic_tip">[Alt+Shift+I] Italic text</label>
+            <label index="tb_link_sample">Link title</label>
+            <label index="tb_link_tip">[Alt+Shift+L] Internal link</label>
+            <label index="tb_extlink_sample">http://www.example.com link title</label>
+            <label index="tb_extlink_tip">[Alt+Shift+X] External link (remember http:// prefix)</label>
+            <label index="tb_headline_sample">Headline text</label>
+            <label index="tb_headline_tip">[Alt+Shift+H] Level 2 headline</label>
+            <label index="tb_hr_tip">[Alt+Shift+R] Horizontal line (use sparingly)</label>
+            <label index="tb_sig_tip">Add signature + date (discussions only)</label>
+            <label index="tb_infobox">Click a button to get an example text</label>
+            <label index="tb_nowiki_sample">This will not be parsed</label>
+            <label index="tb_nowiki_tip">[Alt+Shift+N] NoWiki</label>
+            <label index="tb_ref_sample">This text will be shown as a reference.</label>
+            <label index="tb_ref_tip">[Alt+Shift+R] Insert a reference</label>
+            <label index="tb_infobox_alert">Please enter the text you want to be formatted.\n It will be shown in the infobox for copy and pasting.\nExample:\n$1\nwill become:\n$2</label>
+        </languageKey>
+        <languageKey index="dk" type="array">
+            <label index="pi_list_browseresults_prev">&lt; Forrige</label>
+            <label index="pi_list_browseresults_page">Side</label>
+            <label index="pi_list_browseresults_next">Næste &gt;</label>
+            <label index="pi_list_browseresults_displays">Viser resultaterne ###SPAN_BEGIN###%s til %s&lt;/span&gt; ud af ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+            <label index="pi_list_searchBox_search">Søg</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="listFieldHeader_keyword">Keyword</label>
+            <label index="listFieldHeader_body">Body</label>
+            <label index="listFieldHeader_date">Datum</label>
+            <label index="listFieldHeader_author">Autor</label>
+            <label index="listFieldHeader_locked">Gesch&amp;uuml;tzt</label>
+            <label index="listFieldHeader_tstamp">Datum</label>
+            <label index="listFieldHeader_uid">Nr.</label>
+            <label index="listFieldHeader_diff">Vergleichen</label>
+            <label index="listFieldHeader_summary">Zusammenfassung</label>
+            <label index="pi_toc_show">Anzeigen</label>
+            <label index="pi_toc_hide">Verbergen</label>
+            <label index="pi_toc_header">Inhaltsverzeichnis</label>
+            <label index="pi_discussion">Diskussion</label>
+            <label index="pi_backToKeyword">Zur&amp;uuml;ck zu </label>
+            <label index="pi_msg_redirect">&lt;b&gt;Diese Seite wurde von folgendem Artikel umgeleitet&lt;/b&gt;: </label>
+            <label index="pi_list_browseresults_prev">&lt; Zur&amp;uuml;ck</label>
+            <label index="pi_list_browseresults_page">Seite</label>
+            <label index="pi_list_browseresults_next">Vor &gt;</label>
+            <label index="pi_list_browseresults_displays">Zeige Ergebnisse ###SPAN_BEGIN###%s bis %s&lt;/span&gt; von ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+            <label index="pi_list_searchBox_search">Suchen</label>
+            <label index="pi_diff_link_latest_ver">Vergleich neuste.</label>
+            <label index="pi_edit_cancel">Abbrechen</label>
+            <label index="pi_edit_reset">Zurücksetzen</label>
+            <label index="pi_edit_save">Speichern</label>
+            <label index="pi_edit_preview">Vorschau</label>
+            <label index="pi_add_template"> &lt;em&gt;Vorlage einf&amp;uuml;gen:&lt;/em&gt;</label>
+            <label index="pi_edit_ver_warning">&lt;b&gt;&lt;em&gt;Achtung:&lt;/em&gt; Ein anderer Nutzer hat diesen Artikel vor Ihnen bearbeitet und gespeichert! Bitte bearbeiten Sie diese Seite erneut und f&amp;uuml;gen Sie Ihre &amp;Auml;nderungen erneut ein - Ihre bisherigen &amp;Auml;nderungen wurden nicht gespeichert!&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;</label>
+            <label index="pi_edit_tmpledit">[Bearbeiten]</label>
+            <label index="pi_edit_usedtmpl">Verwendete Wiki Vorlagen</label>
+            <label index="pi_wiki_createtmpl">existiert nicht - klicken Sie hier um es zu erstellen.</label>
+            <label index="tb_bold_sample">Fetter Text</label>
+            <label index="tb_bold_tip">[Alt+Shift+B] Fetter text</label>
+            <label index="tb_italic_sample">Kursiver Text</label>
+            <label index="tb_italic_tip">[Alt+Shift+I] Kursiver Text</label>
+            <label index="tb_link_sample">Link-Text</label>
+            <label index="tb_link_tip">[Alt+Shift+L] Interner Link</label>
+            <label index="tb_extlink_sample">http://www.example.eu.int Link Titel</label>
+            <label index="tb_extlink_tip">[Alt+Shift+X] Externer Link (http:// beachten)</label>
+            <label index="tb_headline_sample">Ebene 2 &amp;Uuml;berschrift</label>
+            <label index="tb_headline_tip">[Alt+Shift+H] Ebene 2 &amp;Uuml;berschrift</label>
+            <label index="tb_hr_tip">[Alt+Shift+R] Horizontale Linie (sparsam nutzen)</label>
+            <label index="tb_sig_tip">Signatur und Datum einfügen (nur Diskussionen)</label>
+            <label index="tb_nowiki_sample">Dieser Text wird nicht interpretiert</label>
+            <label index="tb_nowiki_tip">[Alt+Shift+N] NoWiki</label>
+            <label index="tb_ref_sample">Dieser Text wird als Referenz angezeigt.</label>
+            <label index="tb_ref_tip">[Alt+Shift+R] Referenz einfügen</label>
+            <label index="tb_infobox">Klicken Sie einen Button, um einen Beispieltext zu erhalten.</label>
+            <label index="tb_infobox_alert">Bitte geben Sie den Text ein, den Sie formatiert haben mÃ¶chten.\nEr wird dann zum Kopieren in der Infobox angezeigt.\nBeispiel:\n$1\nwird zu\n$2</label>
+        </languageKey>
+		<languageKey index="es" type="array">
+            <label index="listFieldHeader_keyword">Palabra Clave</label>
+            <label index="listFieldHeader_body">Cuerpo</label>
+            <label index="listFieldHeader_date">Fecha</label>
+            <label index="listFieldHeader_author">Autor</label>
+            <label index="listFieldHeader_locked">Bloqueado</label>
+            <label index="listFieldHeader_tstamp">Fecha</label>
+            <label index="listFieldHeader_uid">ID</label>
+            <label index="listFieldHeader_diff">Comparar</label>
+            <label index="listFieldHeader_summary">Resumen</label>
+            <label index="pi_toc_show">Mostrar Tabla de contenidos</label>
+            <label index="pi_toc_hide">Ocultar Tabla de contenidos</label>
+            <label index="pi_toc_header">Contenidos</label>
+            <label index="pi_discussion">Discusión</label>
+            <label index="pi_backToKeyword">Volver a </label>
+            <label index="pi_msg_redirect">&lt;b&gt;Esta página es una redirección desde el artículo:&lt;/b&gt; </label>
+            <label index="pi_list_browseresults_prev">&lt;Previo</label>
+            <label index="pi_list_browseresults_page">Página</label>
+            <label index="pi_list_browseresults_next">Siguiente &gt;</label>
+            <label index="pi_list_browseresults_displays">Mostrando resultados ###SPAN_BEGIN###%s to %s&lt;/span&gt; out of ###SPAN_BEGIN###% s&lt;/span&gt;</label>
+            <label index="pi_list_searchBox_search">Buscar</label>
+            <label index="pi_diff_link_latest_ver">Comparar con el último</label>
+            <label index="pi_edit_cancel">Cancelar / Salir</label>
+            <label index="pi_edit_reset">Reset</label>
+            <label index="pi_edit_save">Guardar</label>
+            <label index="pi_edit_preview">Previsualizar</label>
+            <label index="pi_add_template"> &lt;em&gt;Insertar Plantilla:&lt;/em&gt;</label>
+            <label index="pi_edit_ver_warning">&lt;b&gt;&lt;em&gt;Atención:&lt;/em&gt; Otro usuario ha cambiado antes la misma versión de esta artículo! Edite por favor la última versión de esta página. Sus cambios no han sido guardados y se muestra la última versión! &lt;/b&gt;&lt;br/&gt;&lt;br/&gt;</label>
+            <label index="pi_edit_tmpledit">[Editar]</label>
+            <label index="pi_edit_usedtmpl">Usar Plantillas Wiki </label>
+            <label index="pi_wiki_createtmpl"> No existe - Hacer click aquí para crearlo</label>
+            <label index="tb_bold_sample">Texto en negrita</label>
+            <label index="tb_bold_tip">[Alt+Shift+B] Texto en negrita</label>
+            <label index="tb_italic_sample"> Texto en cursiva</label>
+            <label index="tb_italic_tip">[Alt+Shift+I] Texto en cursiva</label>
+            <label index="tb_link_sample">Título enlace</label>
+            <label index="tb_link_tip">[Alt+Shift+L] Enlace interno</label>
+            <label index="tb_extlink_sample"> http://www.example.com  Título enlace</label>
+            <label index="tb_extlink_tip">[Alt+Shift+X] Enlace externo (Recordar prefijo http://)</label>
+            <label index="tb_headline_sample">Titular</label>
+            <label index="tb_headline_tip">[Alt+Shift+H] Titular de nivel 2</label>
+            <label index="tb_hr_tip">[Alt+Shift+R] Línea horizontal (usar sólo lo necesario)</label>
+            <label index="tb_sig_tip">Añadir firma + fecha (sólo discusiones)</label>
+            <label index="tb_infobox">Hacer click en el botón para generar un texto de ejemplo</label>
+            <label index="tb_nowiki_sample">esto no será analizado</label>
+            <label index="tb_nowiki_tip">[Alt+Shift+N] NoWiki</label>
+            <label index="tb_infobox_alert">Ibntroduzca por favor el texto al que se quiere aplicar formato.\n Esto no será mostrado en el campo para copia y pegado.\nEjemplo:\n$1\nse convierte en:\n$2</label>
+        </languageKey>	        
+        <languageKey index="fi" type="array">
+            <label index="listFieldHeader_keyword">Avainsana</label>
+            <label index="listFieldHeader_body">Runko</label>
+            <label index="listFieldHeader_date">Päiväys</label>
+            <label index="listFieldHeader_author">Kirjoittaja</label>
+            <label index="listFieldHeader_locked">Lukittu</label>
+            <label index="listFieldHeader_tstamp">Päiväys</label>
+            <label index="listFieldHeader_uid">ID</label>
+            <label index="pi_list_browseresults_prev">&lt; Edellinen</label>
+            <label index="pi_list_browseresults_page">Sivu</label>
+            <label index="pi_list_browseresults_next">Seuraava &gt;</label>
+            <label index="pi_list_browseresults_displays">Näytetään hakutulokset alkaen ###SPAN_BEGIN###%s asti %s&lt;/span&gt; kaikkiaan ###SPAN_BEGIN###%s&lt;/span&gt; löydetystä</label>
+            <label index="pi_list_searchBox_search">Etsi</label>
+        </languageKey>
+    </data>
+    <orig_hash type="array">
+        <languageKey index="default" type="array">
+            <label index="listFieldHeader_keyword" type="integer">35714003</label>
+            <label index="listFieldHeader_body" type="integer">180421043</label>
+            <label index="listFieldHeader_date" type="integer">71780721</label>
+            <label index="listFieldHeader_author" type="integer">173111111</label>
+            <label index="listFieldHeader_locked" type="integer">219098707</label>
+            <label index="listFieldHeader_tstamp" type="integer">71780721</label>
+            <label index="listFieldHeader_uid" type="integer">76589678</label>
+            <label index="listFieldHeader_diff" type="integer">133090897</label>
+            <label index="listFieldHeader_summary" type="integer">43016481</label>
+            <label index="pi_toc_show" type="integer">55871126</label>
+            <label index="pi_toc_hide" type="integer">205603240</label>
+            <label index="pi_toc_header" type="integer">203289050</label>
+            <label index="pi_discussion" type="integer">250451060</label>
+            <label index="pi_backToKeyword" type="integer">40494117</label>
+            <label index="pi_msg_redirect" type="integer">249793082</label>
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_page" type="integer">26464201</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">152851483</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+            <label index="pi_diff_link_latest_ver" type="integer">262284510</label>
+            <label index="pi_edit_cancel" type="integer">238143914</label>
+            <label index="pi_edit_reset" type="integer">86431368</label>
+            <label index="pi_edit_save" type="integer">211601612</label>
+            <label index="pi_edit_preview" type="integer">52420219</label>
+            <label index="pi_add_template" type="integer">204123202</label>
+            <label index="pi_edit_ver_warning" type="integer">5878502</label>
+            <label index="pi_edit_tmpledit" type="integer">146079623</label>
+            <label index="pi_edit_usedtmpl" type="integer">59405283</label>
+            <label index="tb_bold_sample" type="integer">229077137</label>
+            <label index="tb_bold_tip" type="integer">183947702</label>
+            <label index="tb_italic_sample" type="integer">100315483</label>
+            <label index="tb_italic_tip" type="integer">224754610</label>
+            <label index="tb_link_sample" type="integer">249826306</label>
+            <label index="tb_link_tip" type="integer">26422759</label>
+            <label index="tb_extlink_sample" type="integer">54738596</label>
+            <label index="tb_extlink_tip" type="integer">243742907</label>
+            <label index="tb_headline_sample" type="integer">118654358</label>
+            <label index="tb_headline_tip" type="integer">140147603</label>
+            <label index="tb_hr_tip" type="integer">127248029</label>
+            <label index="tb_sig_tip" type="integer">82062700</label>
+            <label index="tb_infobox" type="integer">107801328</label>
+            <label index="tb_nowiki_sample" type="integer">148465124</label>
+            <label index="tb_nowiki_tip" type="integer">90161943</label>
+            <label index="tb_infobox_alert" type="integer">219000128</label>
+        </languageKey>
+        <languageKey index="dk" type="array">
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_page" type="integer">26464201</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">152851483</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="listFieldHeader_keyword" type="integer">35714003</label>
+            <label index="listFieldHeader_body" type="integer">180421043</label>
+            <label index="listFieldHeader_date" type="integer">71780721</label>
+            <label index="listFieldHeader_author" type="integer">173111111</label>
+            <label index="listFieldHeader_locked" type="integer">219098707</label>
+            <label index="listFieldHeader_tstamp" type="integer">71780721</label>
+            <label index="listFieldHeader_uid" type="integer">76589678</label>
+            <label index="listFieldHeader_diff" type="integer">133090897</label>
+            <label index="listFieldHeader_summary" type="integer">43016481</label>
+            <label index="pi_toc_show" type="integer">55871126</label>
+            <label index="pi_toc_hide" type="integer">205603240</label>
+            <label index="pi_toc_header" type="integer">203289050</label>
+            <label index="pi_discussion" type="integer">250451060</label>
+            <label index="pi_backToKeyword" type="integer">40494117</label>
+            <label index="pi_msg_redirect" type="integer">249793082</label>
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_page" type="integer">26464201</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">152851483</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+            <label index="pi_diff_link_latest_ver" type="integer">262284510</label>
+            <label index="pi_edit_cancel" type="integer">238143914</label>
+            <label index="pi_edit_reset" type="integer">86431368</label>
+            <label index="pi_edit_save" type="integer">211601612</label>
+            <label index="pi_edit_preview" type="integer">52420219</label>
+            <label index="pi_add_template" type="integer">204123202</label>
+            <label index="pi_edit_ver_warning" type="integer">5878502</label>
+            <label index="pi_edit_tmpledit" type="integer">146079623</label>
+            <label index="pi_edit_usedtmpl" type="integer">59405283</label>
+            <label index="tb_bold_sample" type="integer">229077137</label>
+            <label index="tb_bold_tip" type="integer">183947702</label>
+            <label index="tb_italic_sample" type="integer">100315483</label>
+            <label index="tb_italic_tip" type="integer">224754610</label>
+            <label index="tb_link_sample" type="integer">249826306</label>
+            <label index="tb_link_tip" type="integer">26422759</label>
+            <label index="tb_extlink_sample" type="integer">54738596</label>
+            <label index="tb_extlink_tip" type="integer">243742907</label>
+            <label index="tb_headline_sample" type="integer">118654358</label>
+            <label index="tb_headline_tip" type="integer">140147603</label>
+            <label index="tb_hr_tip" type="integer">127248029</label>
+            <label index="tb_sig_tip" type="integer">82062700</label>
+            <label index="tb_nowiki_sample" type="integer">148465124</label>
+            <label index="tb_nowiki_tip" type="integer">90161943</label>
+            <label index="tb_infobox" type="integer">107801328</label>
+            <label index="tb_infobox_alert" type="integer">219000128</label>
+        </languageKey>
+        <languageKey index="fi" type="array">
+            <label index="listFieldHeader_keyword" type="integer">35714003</label>
+            <label index="listFieldHeader_body" type="integer">180421043</label>
+            <label index="listFieldHeader_date" type="integer">71780721</label>
+            <label index="listFieldHeader_author" type="integer">173111111</label>
+            <label index="listFieldHeader_locked" type="integer">219098707</label>
+            <label index="listFieldHeader_tstamp" type="integer">71780721</label>
+            <label index="listFieldHeader_uid" type="integer">76589678</label>
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_page" type="integer">26464201</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">152851483</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+        </languageKey>
+    </orig_hash>
+    <orig_text type="array">
+        <languageKey index="default" type="array">
+        </languageKey>
+        <languageKey index="dk" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+        </languageKey>
+    </orig_text>
+</T3locallang>

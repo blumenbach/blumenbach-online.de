@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>FlexForm entries for dr_wiki</description>
+        <type>database</type>
+        <csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="tt_content.list_type_pi1">DR Wiki Extension</label>
+            <label index="tt_content.pi_flexform.activateInitialPageText">TPL: Activate Initial Page Template.</label>
+            <label index="tt_content.pi_flexform.charSummary">Editor: Summary characters (Default: 50).</label>
+            <label index="tt_content.pi_flexform.disableDoNumberHeadings">TOC: Disable heading numbering (Default: &quot;No&quot;)?</label>
+            <label index="tt_content.pi_flexform.disableWikiCaching">Adv: Deactivate caching of wiki pages?</label>
+            <label index="tt_content.pi_flexform.disable_toc">TOC: Disable the creation of the table of contents (TOC).</label>
+            <label index="tt_content.pi_flexform.extLinkTarget">Adv: Target for external links (Default: &quot;_blank&quot;)?</label>
+            <label index="tt_content.pi_flexform.initialPageText1">TPL: First Initial Page Template (Wiki Markup).</label>
+            <label index="tt_content.pi_flexform.initialPageText1Name">TPL: Name First Page Template (Wiki Markup).</label>
+            <label index="tt_content.pi_flexform.initialPageText2">TPL: Second Initial Page Template (Wiki Markup).</label>
+            <label index="tt_content.pi_flexform.initialPageText2Name">TPL: Name Second Page Template (Wiki Markup).</label>
+            <label index="tt_content.pi_flexform.initialPageText3">TPL: Third Initial Page Template (Wiki Markup).</label>
+            <label index="tt_content.pi_flexform.initialPageText3Name">TPL: Name Third Page Template (Wiki Markup).</label>
+            <label index="tt_content.pi_flexform.maxTocLevel">TOC: Maximum level of headings to create TOC (Default: 4).</label>
+            <label index="tt_content.pi_flexform.minHeaderCount">TOC: Minimum count of headers for displaying the TOC (Default: 4).</label>
+            <label index="tt_content.pi_flexform.numberColumns">Editor: Number of editor columns (Default: 50).</label>
+            <label index="tt_content.pi_flexform.numberRows">Editor: Number of editor lines (Default: 30).</label>
+            <label index="tt_content.pi_flexform.activateAccessControl">Access: Activate Write Access control? (If not ticked all following settings will be ignored)</label>
+            <label index="tt_content.pi_flexform.allowedgroup">Access: Groups allowed to edit Wiki articles</label>
+            <label index="tt_content.pi_flexform.disallowedgroup">Access: Groups disallowed to edit Wiki articles</label>
+            <label index="tt_content.pi_flexform.pageRedirect">Access: Redirect to page if writing access is not granted (empty means no redirection).</label>
+            <label index="tt_content.pi_flexform.adminUserGroup">Access: Set Wiki Admin User.</label>
+            <label index="tt_content.pi_flexform.read_only">Adv: Make the Wiki read-only (no editing permitted)?</label>
+            <label index="tt_content.pi_flexform.setHomePage">Adv: Set WikiWord for the starting page (Default: &quot;HomePage&quot;).</label>
+            <label index="tt_content.pi_flexform.sheet_advanced">Advanced Settings</label>
+            <label index="tt_content.pi_flexform.sheet_editor">Editor Settings</label>
+            <label index="tt_content.pi_flexform.sheet_general">General Settings</label>
+            <label index="tt_content.pi_flexform.sheet_initialPage">Page Template</label>
+            <label index="tt_content.pi_flexform.sheet_redirect">Write Access</label>
+            <label index="tt_content.pi_flexform.sheet_toc">TOC Settings</label>
+            <label index="tt_content.pi_flexform.templateFile">Adv: Set template for DR_Wiki:</label>
+            <label index="tt_content.pi_flexform.turnOffImageLink">Adv: Turn off image links?</label>
+            <label index="tt_content.pi_flexform.wikiFooter">Adv: Text for static footer - please use the dr_wiki markups:</label>
+            <label index="tt_content.pi_flexform.wikiHeader">Adv: Text for static header - please use the dr_wiki markups:</label>
+            <label index="tt_content.pi_flexform.wrapLinesOn">Editor: Turn on line wrapping? (Default: Off).</label>
+            <label index="tt_content.pi_flexform.sheet_notificationEmail">Email Notification</label>
+            <label index="tt_content.pi_flexform.mailNotify">Activate Email Notification (default: deactivated)</label>
+            <label index="tt_content.pi_flexform.mailHideItem">Do not hide new records on creation</label>
+            <label index="tt_content.pi_flexform.mailRecipient">Recipient's email address</label>
+            <label index="tt_content.pi_flexform.mailSubject">Notification subject</label>
+            <label index="tt_content.pi_flexform.mailFromEmail">From email address</label>
+            <label index="tt_content.pi_flexform.mailFromName">From email name</label>
+            
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index=""></label>
+            <label index="tt_content.list_type_pi1">DR Wiki Extension</label>
+        </languageKey>
+    </data>
+    <orig_hash type="array">
+        <languageKey index="default" type="array">
+            <label index="tt_content.list_type_pi1" type="integer">146622300</label>
+            <label index="tt_content.pi_flexform.activateInitialPageText" type="integer">195078377</label>
+            <label index="tt_content.pi_flexform.charSummary" type="integer">166297555</label>
+            <label index="tt_content.pi_flexform.disableDoNumberHeadings" type="integer">165521457</label>
+            <label index="tt_content.pi_flexform.disableWikiCaching" type="integer">225169894</label>
+            <label index="tt_content.pi_flexform.disable_toc" type="integer">116438930</label>
+            <label index="tt_content.pi_flexform.extLinkTarget" type="integer">112356417</label>
+            <label index="tt_content.pi_flexform.initialPageText1" type="integer">97827295</label>
+            <label index="tt_content.pi_flexform.initialPageText1Name" type="integer">222168688</label>
+            <label index="tt_content.pi_flexform.initialPageText2" type="integer">131624677</label>
+            <label index="tt_content.pi_flexform.initialPageText2Name" type="integer">169392768</label>
+            <label index="tt_content.pi_flexform.initialPageText3" type="integer">178830363</label>
+            <label index="tt_content.pi_flexform.initialPageText3Name" type="integer">6246004</label>
+            <label index="tt_content.pi_flexform.maxTocLevel" type="integer">82844532</label>
+            <label index="tt_content.pi_flexform.minHeaderCount" type="integer">172342398</label>
+            <label index="tt_content.pi_flexform.numberColumns" type="integer">211648738</label>
+            <label index="tt_content.pi_flexform.numberRows" type="integer">71920512</label>
+            <label index="tt_content.pi_flexform.activateAccessControl" type="integer">149221983</label>
+            <label index="tt_content.pi_flexform.allowedgroup" type="integer">67021503</label>
+            <label index="tt_content.pi_flexform.disallowedgroup" type="integer">105998163</label>
+            <label index="tt_content.pi_flexform.pageRedirect" type="integer">195544880</label>
+            <label index="tt_content.pi_flexform.adminUserGroup" type="integer">257581403</label>
+            <label index="tt_content.pi_flexform.read_only" type="integer">258590754</label>
+            <label index="tt_content.pi_flexform.setHomePage" type="integer">172751717</label>
+            <label index="tt_content.pi_flexform.sheet_advanced" type="integer">167756748</label>
+            <label index="tt_content.pi_flexform.sheet_editor" type="integer">54907165</label>
+            <label index="tt_content.pi_flexform.sheet_general" type="integer">86983571</label>
+            <label index="tt_content.pi_flexform.sheet_initialPage" type="integer">247659805</label>
+            <label index="tt_content.pi_flexform.sheet_redirect" type="integer">251235806</label>
+            <label index="tt_content.pi_flexform.sheet_toc" type="integer">245138081</label>
+            <label index="tt_content.pi_flexform.templateFile" type="integer">255593321</label>
+            <label index="tt_content.pi_flexform.turnOffImageLink" type="integer">94558179</label>
+            <label index="tt_content.pi_flexform.wikiFooter" type="integer">166597692</label>
+            <label index="tt_content.pi_flexform.wikiHeader" type="integer">208558479</label>
+            <label index="tt_content.pi_flexform.wrapLinesOn" type="integer">88256369</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="" type="integer">222419149</label>
+            <label index="tt_content.list_type_pi1" type="integer">146622300</label>
+        </languageKey>
+    </orig_hash>
+    <orig_text type="array">
+        <languageKey index="default" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+        </languageKey>
+    </orig_text>
+</T3locallang>

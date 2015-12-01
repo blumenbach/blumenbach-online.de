@@ -1,0 +1,42 @@
+/* HTML tags */
+u	{
+	color: #994433;
+}
+
+/* constants */
+span	{
+	color: purple;
+}
+
+/* conditions */
+big, big *	{
+	color: blue;
+}
+
+/* numbers */
+cite	{
+	color: #005500;
+}
+
+/* Special characters */
+a	{
+	color: red;
+	font-weight: bold;
+}
+
+/* Just bold */
+strong	{
+	font-weight: bold;
+}
+
+/* Keywords */
+b	{
+	color: navy;
+	font-weight: bold;
+}
+
+/* Comments */
+i, i *	{
+	color: #666;
+	font-style: italic;
+}

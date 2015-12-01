@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallang>
+    <meta type="array">
+        <description>Language labels for ratings config</description>
+        <type>module</type>
+        <csh_table></csh_table>
+        <fileId>EXT:dr_wiki/flexforms/locallang_db_ratings.xml</fileId>
+        <labelContext type="array">
+            <label index="tt_content.list_type_pi1"></label>
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+        	<label index="tt_content.pi_flexform.enableRatings">Enable Ratings</label>
+        	<label index="tt_content.pi_flexform.enableRatingsPlugin">Enable Ratings Plugin</label>
+        	<label index="tt_content.pi_flexform.enableMostRatedPlugin">Enable Most Rated Plugin</label>
+        	<label index="tt_content.pi_flexform.ratingsConfig">Ratings Configuration</label>
+        </languageKey>
+    </data>
+</T3locallang>

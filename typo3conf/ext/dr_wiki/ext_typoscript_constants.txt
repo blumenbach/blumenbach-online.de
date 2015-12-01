@@ -1,0 +1,58 @@
+# static TypoScript constants
+plugin.tx_drwiki_pi1 {
+  
+    # cat=plugin.tx_drwiki_pi1/file/a; type=file[html,htm,tmpl,txt]; label= Template File: Template File.
+    templateFile = EXT:dr_wiki/res/drwiki.tmpl
+    
+    # cat=plugin.tx_drwiki_pi1/file/a; type=file[IMAGE_EXT]; label= Icon-Edit: This is the icon for editing the page.
+    iconEdit = EXT:dr_wiki/res/ui/wiki_edit.png
+            
+    # cat=plugin.tx_drwiki_pi1/file/b; type=file[IMAGE_EXT]; label= Icon-Home: This is the icon for the wiki-home.
+    iconHome = EXT:dr_wiki/res/ui/wiki_home.png
+            
+    # cat=plugin.tx_drwiki_pi1/file/c; type=file[IMAGE_EXT]; label= Icon-Versions: This is the icon for the version-display.
+    iconVersions = EXT:dr_wiki/res/ui/wiki_versionen.png
+    
+    # cat=plugin.tx_drwiki_pi1/file/d; type=file[IMAGE_EXT]; label= Icon-Back: This is the icon for going back to the page.
+    iconBack = EXT:dr_wiki/res/ui/wiki_back.png
+    
+    # cat=plugin.tx_drwiki_pi1/file/h; type=file[IMAGE_EXT]; label= Icon-Reload: This is the icon for going back to the page.
+    iconReload = EXT:dr_wiki/res/ui/wiki_back.png
+    
+    # cat=plugin.tx_drwiki_pi1/file/e; type=file[IMAGE_EXT]; label= Icon-ExtLink: This is the icon for the external links.
+    iconExtLink = EXT:dr_wiki/res/ui/link_ext.gif
+    
+    # cat=plugin.tx_drwiki_pi1/file/f; type=file[IMAGE_EXT]; label= Icon-Mailto: This is the icon for the email addresses.
+    iconMailto = EXT:dr_wiki/res/ui/link_mailto.gif
+    
+    # cat=plugin.tx_drwiki_pi1/file/g; type=file[IMAGE_EXT]; label= Icon-getHTML: This is the icon for HTML preview.
+    iconGetHTML = EXT:dr_wiki/res/ui/wiki_getHTML.png
+    
+    # cat=plugin.tx_drwiki_pi1/file/h; type=file[IMAGE_EXT]; label= Icon-Help: This is the icon for the Help-Page.
+    iconGetHelp = EXT:dr_wiki/res/ui/wiki_help.png
+    
+    # cat=plugin.tx_drwiki_pi1/file/i; type=file[IMAGE_EXT]; label= Icon-Lock: This is the icon for lock pages.
+    iconLock = EXT:dr_wiki/res/ui/wiki_lock.png
+    
+    # cat=plugin.tx_drwiki_pi1/file/j; type=file[IMAGE_EXT]; label= Icon-Unlock: This is the icon for un-lock pages.
+    iconUnLock = EXT:dr_wiki/res/ui/wiki_unlock.png
+    
+    # cat=plugin.tx_drwiki_pi1/color/a; type=color; label= Color 1: This color is used in the template-file.	
+    color1 = #f0f0f0
+    
+    # cat=plugin.tx_drwiki_pi1/color/b; type=color; label= Color 2: This color is used in the template-file.
+    color2 = #e0e0e0
+    
+    # cat=plugin.tx_drwiki_pi1/color/c; type=color; label= Color 3: This color is used in the template-file.
+    color3 = blue
+    
+    # cat=plugin.tx_drwiki_pi1/typo/a; type=wrap; label= Wrap 1: This wrap is used in the template-file.	
+    wrap1 = <span face="verdana" size="1" color="#4d2e03"><b>|</b></span>
+    
+    # cat=plugin.tx_drwiki_pi1/typo/b; type=wrap; label= Wrap 2: This wrap is used in the template-file.
+    wrap2 = <span face="verdana" size="1" color="#4d2e03">|</span>
+    
+    # cat=plugin.tx_drwiki_pi1/typo/c; type=wrap; label= Wrap 3: This wrap is used in the template-file.
+    wrap3 = <span face="verdana" size="1" color="red">|</span>
+}
+	

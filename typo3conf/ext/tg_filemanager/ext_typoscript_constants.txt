@@ -1,0 +1,4 @@
+plugin.tx_tgfilemanager_pi1 {
+	# cat=plugin.tx_tgfilemanager/other/h; type=string; label= Path; The main Content-Path
+	iconpath = fileadmin/template/redesign/fm_icons/
+}

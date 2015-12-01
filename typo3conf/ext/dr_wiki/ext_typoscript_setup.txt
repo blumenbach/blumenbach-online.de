@@ -1,0 +1,209 @@
+plugin.tx_drwiki_pi1 {
+	CMD = 
+	pidList = 
+	recursive = 
+
+	templateFile = {$plugin.tx_drwiki_pi1.templateFile}
+	
+	iconEdit = IMAGE
+	iconEdit.file = {$plugin.tx_drwiki_pi1.iconEdit}
+    iconEdit.altText = Edit
+	
+	iconHome = IMAGE
+	iconHome.file = {$plugin.tx_drwiki_pi1.iconHome}
+    iconHome.altText = HomePage
+        
+    iconBack = IMAGE
+	iconBack.file = {$plugin.tx_drwiki_pi1.iconBack}
+    iconBack.altText = Back
+	
+	iconReload = IMAGE
+	iconReload.file = {$plugin.tx_drwiki_pi1.iconReload}
+    iconReload.altText = Reload page
+	
+	iconVersions = IMAGE
+	iconVersions.file = {$plugin.tx_drwiki_pi1.iconVersions}
+    iconVersions.altText = Versions
+        
+    iconGetHTML = IMAGE
+	iconGetHTML.file = {$plugin.tx_drwiki_pi1.iconGetHTML}
+    iconGetHTML.altText = Download HTML
+
+    iconGetHelp = IMAGE
+	iconGetHelp.file = {$plugin.tx_drwiki_pi1.iconGetHelp}
+    iconGetHelp.altText = Help
+    
+    iconLock = IMAGE
+	iconLock.file = {$plugin.tx_drwiki_pi1.iconLock}
+    iconLock.altText = Lock
+    
+    iconUnLock = IMAGE
+	iconUnLock.file = {$plugin.tx_drwiki_pi1.iconUnLock}
+    iconUnLock.altText = Un-Lock
+
+# General Images:
+    
+    #Generic Image for easier configuration
+    sys_GenImage = IMAGE
+    sys_GenImage.params = hspace=4 align=left
+    
+    sys_Warning < .sys_GenImage
+	sys_Warning.file = EXT:dr_wiki/res/sys/sys_warning.png
+    sys_Warning.altText = Warning
+
+    sys_Warning2 = IMAGE
+	sys_Warning2.file = EXT:dr_wiki/res/sys/sys_warning.png
+
+    sys_Error < .sys_GenImage
+	sys_Error.file = EXT:dr_wiki/res/sys/sys_error.png
+    sys_Error.altText = Error
+    
+    sys_Error2 = IMAGE
+	sys_Error2.file = EXT:dr_wiki/res/sys/sys_error.png
+
+    sys_Info < .sys_GenImage
+	sys_Info.file = EXT:dr_wiki/res/sys/sys_info.png
+    sys_Info.altText = Info
+    
+    sys_Info2 = IMAGE
+	sys_Info2.file = EXT:dr_wiki/res/sys/sys_info.png
+
+    sys_Copy < .sys_GenImage
+	sys_Copy.file = EXT:dr_wiki/res/sys/sys_copy.png
+    sys_Copy.altText = Copy
+    
+    sys_Copy2 = IMAGE
+	sys_Copy2.file = EXT:dr_wiki/res/sys/sys_copy.png
+    
+    sys_Redirect < .sys_GenImage
+    sys_Redirect.file = EXT:dr_wiki/res/sys/sys_copy.png
+    sys_Redirect.altText = Redirect
+
+    sys_Trash < .sys_GenImage
+	sys_Trash.file = EXT:dr_wiki/res/sys/sys_trash.png
+    sys_Trash.altText = Trash
+    
+    sys_Trash2 = IMAGE
+	sys_Trash2.file = EXT:dr_wiki/res/sys/sys_trash.png
+
+    sys_Return < .sys_GenImage
+	sys_Return.file = EXT:dr_wiki/res/sys/sys_return.png
+    sys_Return.altText = Redirect
+    
+    sys_Return2 = IMAGE
+	sys_Return2.file = EXT:dr_wiki/res/sys/sys_return.png
+
+    sys_Computer < .sys_GenImage
+	sys_Computer.file = EXT:dr_wiki/res/sys/sys_computer.png
+    sys_Computer.altText = Computer
+    
+    sys_Computer2 = IMAGE
+	sys_Computer2.file = EXT:dr_wiki/res/sys/sys_computer.png
+
+    sys_Folder < .sys_GenImage
+	sys_Folder.file = EXT:dr_wiki/res/sys/sys_folder.png
+    sys_Folder.altText = Folder
+    
+    sys_Folder2 = IMAGE
+	sys_Folder2.file = EXT:dr_wiki/res/sys/sys_folder.png
+
+    sys_Webpage < .sys_GenImage
+	sys_Webpage.file = EXT:dr_wiki/res/sys/sys_webpage.png
+    sys_Webpage.altText = Folder
+    
+    sys_Webpage2 = IMAGE
+	sys_Webpage2.file = EXT:dr_wiki/res/sys/sys_webpage.png
+
+    iconIndex = IMAGE
+	iconIndex.file = {$plugin.tx_drwiki_pi1.iconIndex}
+        
+    iconExtLink = IMAGE
+	iconExtLink.file = {$plugin.tx_drwiki_pi1.iconExtLink}
+    iconExtLink.params = hspace=4
+        
+    iconMailto = IMAGE
+	iconMailto.file = {$plugin.tx_drwiki_pi1.iconMailto}
+    iconMailto.params = hspace=4
+	
+	color1 = {$plugin.tx_drwiki_pi1.color1}
+	color2 = {$plugin.tx_drwiki_pi1.color2}
+	color3 = {$plugin.tx_drwiki_pi1.color3}
+	
+	wrap1 = {$plugin.tx_drwiki_pi1.wrap1}
+	wrap2 = {$plugin.tx_drwiki_pi1.wrap2}
+	wrap3 = {$plugin.tx_drwiki_pi1.wrap3}
+        
+    allowedHTML = {$plugin.tx_drwiki_pi1.allowedHTML}
+    
+    editorConfig {
+    	numberRows = 30
+    	numberColumns = 50
+    	charSummary = 
+    }
+    
+    toc {
+		maxTocLevel = 4
+		minHeaderCount = 4
+    }
+    
+}
+
+plugin.tx_drwiki_pi1.listView {
+	results_at_a_time = 25
+	maxPages = 10
+}
+# Example of default set CSS styles (these go into the document header):
+plugin.tx_drwiki_pi1._CSS_DEFAULT_STYLE (
+  .tx-drwiki-pi1 A { TEXT-DECORATION: none; }
+  .tx-drwiki-pi1 .notCreated { color:red; }
+  .tx-drwiki-pi1 OL.references > li:target {background-color: #DEF;}
+  .tx-drwiki-pi1 SUP.reference:target { background-color: #DEF;}
+  .tx-drwiki-pi1 OL.references { font-size:9pt; }
+  .tx-drwiki-pi1 OL.references-2column {font-size:9pt; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;}
+  .tx-drwiki-pi1 A:hover { TEXT-DECORATION: underline; }
+  .tx-drwiki-pi1 .editsection {float: right; margin-left: 5px;}
+  .tx-drwiki-pi1 h1, .tx-drwiki-pi1 h2, .tx-drwiki-pi1 h3, .tx-drwiki-pi1 h4, .tx-drwiki-pi1 h5, .tx-drwiki-pi1 h6 {color: black; background: none; font-weight: normal; margin: 0;padding-top: .5em; padding-bottom: .17em; border-bottom: 1px solid #aaa;}
+  .tx-drwiki-pi1 h1 { font-size: 188%; }
+  .tx-drwiki-pi1 h1 .editsection { font-size: 53%; }
+  .tx-drwiki-pi1 h2 { font-size: 150%; }
+  .tx-drwiki-pi1 h2 .editsection { font-size: 67%; }
+  .tx-drwiki-pi1 h3, h4, h5, h6 {border-bottom: none; font-weight: bold;}
+  .tx-drwiki-pi1 h3 { font-size: 132%; }
+  .tx-drwiki-pi1 h3 .editsection { font-size: 76%; font-weight: normal; }
+  .tx-drwiki-pi1 h4 { font-size: 116%; }
+  .tx-drwiki-pi1 h4 .editsection { font-size: 86%; font-weight: normal; }
+  .tx-drwiki-pi1 h5 { font-size: 100%; }
+  .tx-drwiki-pi1 h5 .editsection { font-weight: normal; }
+  .tx-drwiki-pi1 h6 { font-size: 80%;  }
+  .tx-drwiki-pi1 h6 .editsection { font-size: 125%; font-weight: normal; }
+  .tx-drwiki-pi1 HR { height:1px; border-top:1px dotted #000000; border-left:0; border-right:0; border-bottom:0; }
+  .tx-drwiki-pi1 OL {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0.3em 0px 0px 3.2em; LINE-HEIGHT: 1.5em; PADDING-TOP: 0px;}
+  .tx-drwiki-pi1 UL {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0.3em 0px 0px 1.5em; LINE-HEIGHT: 1.5em; PADDING-TOP: 0px; }
+  .tx-drwiki-pi1 PRE { BORDER: #2f6fab 1px dashed; PADDING: 1em; COLOR: black; LINE-HEIGHT: 1.1em; BACKGROUND-COLOR: #f9f9f9; font-family:Fixedsys,Courier; }
+  .tx-drwiki-pi1 INPUT {font-size:10pt;}
+  .tx-drwiki-pi1 TEXTAREA {width:100%; font-size:10pt;}
+  .tx-drwiki-pi1 input, textarea {border: 1px #ccc solid; background: #fafafa; color: #777;}
+  .tx-drwiki-pi1 input[type=text]:focus, textarea:focus { background: #f0f0f0; color: #333; border-color: #666;}
+  .tx-drwiki-pi1-urlextension { display: none; }
+  .redirect {BORDER: #2f6fab 1px dashed; PADDING: 1em; COLOR: black; LINE-HEIGHT: 1.1em; BACKGROUND-COLOR: #FFFFF0;}
+  .icons {vertical-align:middle; float:left; margin-right:20px; margin-bottom:10px;}
+  .wiki-box {BORDER: #2f6fab 1px dashed; PADDING: 1em; COLOR: black; LINE-HEIGHT: 1.1em; BACKGROUND-COLOR: #f9f9f9; } 
+  .wiki-box-blue {display: block;font-size: 1em; color: #000; padding: 0.5em; background: #f0f0f4; border-left: 8px #E0E7F5 solid;}  
+  .wiki-box-red {display: block;font-size: 1em; color: #000; padding: 0.5em; background: #fee; border-left: 8px #fcc solid;}  
+  .wiki-box-green {display: block;font-size: 1em; color: #000; padding: 0.5em; background: #33FF33; border-left: 8px #006600 solid;}  
+  .wiki-box-yellow {display: block;font-size: 1em; color: #000; padding: 0.5em; background: #FFFF99; border-left: 8px #FFFF00 solid;}
+  .wiki-box-catlinks {border: 1px solid #aaa;background-color: #f9f9f9;padding: 5px;margin-top: 1em;clear: both;}  
+  .wiki-table {margin: 1em 1em 1em 0; background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse;}  
+  .diff-r {color: red;}
+  .diff-g {color: green;}
+  .diff-result { BORDER: #2f6fab 1px dashed; PADDING: 1em; COLOR: black; LINE-HEIGHT: 1.1em; BACKGROUND-COLOR: #f9f9f9; font-family:Fixedsys,Courier; }
+  .diff-table {width:100%;}
+  .diff-table-cell-green {vertical-align:top; text-align:left; white-space:normal; color:green; font-family:Fixedsys,Courier; font-size:10pt; BORDER: #2f6fab 1px dashed; PADDING: 1em;}
+  .diff-table-cell-red {vertical-align:top; text-align:left; white-space:normal; color:red; font-family:Fixedsys,Courier; font-size:10pt; BORDER: #2f6fab 1px dashed; PADDING: 1em;}
+  #toc {BORDER: #aaaaaa 1px solid; PADDING: 5px; FONT-SIZE: 10pt; BACKGROUND-COLOR: #f9f9f9 }
+  #toc .tocindent {MARGIN-LEFT: 2em}
+  #toc .tocline {MARGIN-BOTTOM: 0px}
+  #toc P {FONT-SIZE: 10pt; MARGIN: 0px}
+  #toc .toctoggle {FONT-SIZE: 10pt}
+  #toc .editsection {MARGIN-TOP: 0.7em; FONT-SIZE: 10pt}
+)

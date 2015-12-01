@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description></description>
+        <type>database</type>
+        <csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="tx_drwiki_pages">Wiki Pages</label>
+            <label index="tx_drwiki_pages.keyword">Keyword</label>
+            <label index="tx_drwiki_pages.body">Body</label>
+            <label index="tx_drwiki_pages.date">Creation Date</label>
+            <label index="tx_drwiki_pages.author">Author</label>
+            <label index="tx_drwiki_pages.locked">Locked</label>
+            <label index="tx_drwiki_pages.summary">Summary of Changes</label>
+            <label index="tx_drwiki_cache">Cached Wiki-Page</label>
+            <label index="tx_drwiki_cache.keyword">Keyword</label>
+            <label index="tx_drwiki_cache.html_cache">HTML Output</label>
+            <label index="tx_drwiki_cache.cache_uid">Cache UID</label>
+            <label index="tt_content.list_type_pi1">DR Wiki</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="tx_drwiki_pages">Wiki Seiten</label>
+            <label index="tx_drwiki_pages.keyword">Stichwort</label>
+            <label index="tx_drwiki_pages.body">Inhalt</label>
+            <label index="tx_drwiki_pages.date">Erstellungsdatum</label>
+            <label index="tx_drwiki_pages.author">Autor</label>
+            <label index="tx_drwiki_pages.locked">Gesichert</label>
+            <label index="tx_drwiki_pages.summary">Zusammenfassung der ?nderungen</label>
+            <label index="tx_drwiki2_cache">Wiki-Seiten Zwischenspeicher</label>
+            <label index="tx_drwiki2_cache.keyword">Schlüsselwort</label>
+            <label index="tx_drwiki2_cache.html_cache">Zwischengespeicherte HTML Ausgabe</label>
+            <label index="tx_drwiki2_cache.cache_uid">Cache UID</label>
+            <label index="tt_content.list_type_pi1">DR Wiki</label>
+        </languageKey>
+        <languageKey index="fi" type="array">
+            <label index="tx_drwiki_pages">Wiki sivut</label>
+            <label index="tx_drwiki_pages.keyword">Avainsana</label>
+            <label index="tx_drwiki_pages.body">Runko</label>
+            <label index="tx_drwiki_pages.date">päiväys</label>
+            <label index="tx_drwiki_pages.author">Kirjoittaja</label>
+            <label index="tx_drwiki_pages.locked">Lukittu</label>
+            <label index="tt_content.list_type_pi1">DR Wiki</label>
+        </languageKey>
+    </data>
+    <orig_hash type="array">
+        <languageKey index="default" type="array">
+            <label index="tx_drwiki_pages" type="integer">243790988</label>
+            <label index="tx_drwiki_pages.keyword" type="integer">35714003</label>
+            <label index="tx_drwiki_pages.body" type="integer">180421043</label>
+            <label index="tx_drwiki_pages.date" type="integer">87017376</label>
+            <label index="tx_drwiki_pages.author" type="integer">173111111</label>
+            <label index="tx_drwiki_pages.locked" type="integer">219098707</label>
+            <label index="tx_drwiki_pages.summary" type="integer">53459581</label>
+            <label index="tx_drwiki_cache" type="integer">3025078</label>
+            <label index="tx_drwiki_cache.keyword" type="integer">35714003</label>
+            <label index="tx_drwiki_cache.html_cache" type="integer">222869120</label>
+            <label index="tx_drwiki_cache.cache_uid" type="integer">255107273</label>
+            <label index="tt_content.list_type_pi1" type="integer">57896303</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="tx_drwiki_pages" type="integer">243790988</label>
+            <label index="tx_drwiki_pages.keyword" type="integer">35714003</label>
+            <label index="tx_drwiki_pages.body" type="integer">180421043</label>
+            <label index="tx_drwiki_pages.date" type="integer">87017376</label>
+            <label index="tx_drwiki_pages.author" type="integer">173111111</label>
+            <label index="tx_drwiki_pages.locked" type="integer">219098707</label>
+            <label index="tx_drwiki_pages.summary" type="integer">53459581</label>
+            <label index="tx_drwiki2_cache" type="integer">222419149</label>
+            <label index="tx_drwiki2_cache.keyword" type="integer">222419149</label>
+            <label index="tx_drwiki2_cache.html_cache" type="integer">222419149</label>
+            <label index="tx_drwiki2_cache.cache_uid" type="integer">222419149</label>
+            <label index="tt_content.list_type_pi1" type="integer">57896303</label>
+        </languageKey>
+        <languageKey index="fi" type="array">
+            <label index="tx_drwiki_pages" type="integer">243790988</label>
+            <label index="tx_drwiki_pages.keyword" type="integer">35714003</label>
+            <label index="tx_drwiki_pages.body" type="integer">180421043</label>
+            <label index="tx_drwiki_pages.date" type="integer">87017376</label>
+            <label index="tx_drwiki_pages.author" type="integer">173111111</label>
+            <label index="tx_drwiki_pages.locked" type="integer">219098707</label>
+            <label index="tt_content.list_type_pi1" type="integer">57896303</label>
+        </languageKey>
+    </orig_hash>
+    <orig_text type="array">
+        <languageKey index="default" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+        </languageKey>
+    </orig_text>
+</T3locallang>

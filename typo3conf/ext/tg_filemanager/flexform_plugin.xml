@@ -1,0 +1,25 @@
+<T3DataStructure>
+	<ROOT>
+		<type>array</type>
+		<el>
+   		<abspath>
+   			<TCEforms>
+   			<label>Absoluter Pfad zum Verzeichnis</label>
+   			<config>
+   				<type>input</type>
+   				<size>40</size>
+   			</config>
+   			</TCEforms>
+   		</abspath>
+    		<relpath>
+   			<TCEforms>
+   			<label>Relativer Pfad zum Verzeichnis</label>
+   			<config>
+   				<type>input</type>
+   				<size>40</size>
+   			</config>
+   			</TCEforms>
+   		</relpath>				
+		</el>
+	</ROOT>
+</T3DataStructure>		

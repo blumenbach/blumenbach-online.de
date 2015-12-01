@@ -1,0 +1,22 @@
+* Wiki parser
+** Get Caching of wiki templates to work
+
+* Editor:
+** Add default summary messages
+*** choose by selector box, added by button
+*** messages added by FF in Backend
+
+* HTML Template:
+** Put Forms into Template
+** Document Templates and Markers
+
+* Wiki Parser:
+** FF configuration for non-Wiki wiki link output (example: <tag>|</tag>)
+** Modulise parser ($str --> HTML)
+
+*General:
+**Code clean-up
+**Segregation of code modules
+*** Database
+*** Editor
+*** Wiki-parser

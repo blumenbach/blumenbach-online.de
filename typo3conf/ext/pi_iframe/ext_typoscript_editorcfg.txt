@@ -1,0 +1,10 @@
+
+plugin.tx_piiframe_pi1.CSS_editor = Plugin: "tx_piiframe_pi1"
+plugin.tx_piiframe_pi1.CSS_editor.selector = .tx-piiframe-pi1
+plugin.tx_piiframe_pi1.CSS_editor.exampleWrap = <HR><strong>Plugin: "tx_piiframe_pi1"</strong><HR><DIV class="tx-piiframe-pi1"> | </DIV>
+plugin.tx_piiframe_pi1.CSS_editor.ch {
+	IFRAME = IFRAME
+	IFRAME.selector = IFRAME
+	IFRAME.attribs = margin+
+	IFRAME.example = <IFRAME src="clear.gif"></IFRAME>
+}

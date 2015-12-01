@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallang>
+    <meta type="array">
+        <description>Language labels for "mostrated" plugin</description>
+        <fileId>EXT:dr_wiki/pi1/plugins/locallang_mostrated.xml</fileId>
+        <labelContext type="array">
+            <label index="tt_content.list_type_pi1"></label>
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+        	<label index="mostrated.rated">Rated </label>
+        	<label index="mostrated.vote_count">Votes </label>
+        </languageKey>
+    </data>
+</T3locallang>
